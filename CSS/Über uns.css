@@ -2,17 +2,24 @@ body {
     background-color: #F2CC0C;
     display: grid;
     grid-template-columns: 473px 1fr 237px;
-    grid-template-rows: 1343px 1fr;
+    grid-template-rows: 1050px 867px 1090px 1005px;
+    background-image: url(/Bilder/team/DSCF3946.JPG);
+    background-size: 100% 1925px;
+    background-position: center top;
+    background-repeat: no-repeat;
+
 }
 
 .container {
-grid-column: 3/ span 1;
+    grid-column: 3/ span 1;
 }
 
 .burger {
     position: fixed;
     font-family: "paralucent";
     font-size: 40px;
+    font-weight: 500;
+    line-height: 45px;
     list-style: none;
     text-align: right;
     padding-top: 315px;
@@ -25,4 +32,173 @@ grid-column: 3/ span 1;
 #angebot a {
     text-decoration: none;
     color: white;
+}
+
+.titel {
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 1;
+
+    display: flex;
+}
+
+h2 {
+    font-family: "paralucent";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 20px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    align-self: flex-start;
+
+    margin-left: 9px;
+    margin-top: 52px;
+    color: white;
+}
+
+
+h1 {
+    font-family: "paralucent";
+    font-size: 350px;
+    font-weight: 700;
+    line-height: 420px;
+    color: white;
+    line-height: 250px;
+
+    justify-self: flex-start;
+
+    margin-left: -70px;
+    margin-top: 54px;
+}
+
+h3 {
+    grid-column: 1/ span 2;
+    grid-row: 2/ span 1;
+    font-family: "paralucent";
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 16px;
+    font-weight: 700;
+    color: white;
+    margin-left: 22px;
+}
+
+.storyone {
+    grid-column: 1/ span 1;
+    grid-row: 2/ span 1;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    line-height: 48px;
+
+    margin-left: 22px;
+    margin-top: 90px;
+
+}
+
+
+.storytwo {
+    grid-column: 2/ span 1;
+    grid-row: 2/ span 1;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    line-height: 48px;
+    justify-self: center;
+
+    margin-top: 90px;
+
+}
+
+
+
+.luana {
+    grid-column: 1/span 2;
+    grid-row: 3/span 1;
+
+    display: flex;
+
+}
+
+.namelulu {
+    font-family: "paralucent";
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 300px;
+    color: white;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    justify-self: start;
+    align-self: end;
+    margin-left: -75px;
+    margin-bottom: 12px;
+
+}
+
+.luluone {
+    width: 650px;
+    height: 976px;
+
+    justify-self: start;
+    align-self: end;
+    margin-left: -320px;
+    margin-bottom: 15px;
+}
+
+.lulutwo {
+    width: 400px;
+    height: 600px;
+
+    align-self: center;
+    margin-left: 30px;
+
+}
+
+
+.simon {
+    grid-column: 1/span 2;
+    grid-row: 4/span 1;
+
+    display: flex;
+}
+
+.namesimsim {
+    grid-column: 2/span 1;
+    grid-row: 4 /span 1;
+    font-family: "paralucent";
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 300px;
+    color: white;
+    writing-mode: vertical-lr;
+
+
+    justify-self: end;
+    align-self: end;
+    margin-bottom: 12px;
+    margin-right: 0px;
+    
+
+}
+
+.simsimtwo {
+    width: 400px;
+    height: 600px;
+
+    align-self: center;
+    margin-left: 10px;
+
+}
+
+.simsimone {
+    width: 650px;
+    height: 975px;
+
+    align-self: center;
+    margin-left: 30px;
+
 }
