@@ -28,7 +28,7 @@ grid-column: 3/ span 1;
 #login a,
 #favoriten a,
 #uberuns a,
-#blog a,
+#kontakt a,
 #angebot a {
     text-decoration: none;
     color: white;
@@ -39,18 +39,19 @@ h1 {
     font-family: "paralucent";
     font-size: 467px;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: top 50px;
     /* margin: -220px; */
-    margin-top: -1100px;
+    /* margin-top: -1100px; */
 }
 
 h2{
     font-family: "paralucent";
     font-size: 316px;
     color: white;
-    text-align: center;
+    text-align: left;
     padding-top: 50px;
-    margin-top: -1000px;
+    /* margin-top: -1000px; */
     /* margin: -220px; */
 }
+
