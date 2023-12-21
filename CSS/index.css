@@ -1,0 +1,107 @@
+body {
+
+
+    background-image: url(../Bilder/Homepage/DSCF3780.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+    background-color: #F2CC0C;
+    display: grid;
+    grid-template-columns: 473px 1fr 237px;
+    grid-template-rows: 1343px 1fr;
+}
+
+.container {
+    grid-column: 3/ span 1;
+    }
+    
+.burger {
+    position: fixed;
+    font-family: "paralucent";
+    font-size: 40px;
+    list-style: none;
+    text-align: right;
+    padding-top: 315px;
+}
+
+#login a,
+#favoriten a,
+#uberuns a,
+#kontakt a,
+#angebot a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-family: "paralucent";
+    font-size: 467px;
+    color: white;
+    text-align: center;
+    padding: top 50px;
+    /* margin: -220px; */
+    margin-top: -1100px;
+}
+
+h2{
+    font-family: "paralucent";
+    font-size: 316px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -1000px;
+    /* margin: -220px; */
+}
+
+footer {
+    background-color: #FFE76E;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Paralucent", sans-serif;
+}
+
+.left-content
+ {
+    padding-left: 50px;
+}
+
+.right-content
+ {
+    padding-right: 50px;
+}
+
+.left-content p,
+.right-content p,
+.email,
+.awayste,
+.facebook,
+.instagram {
+    margin: 0;
+}
+
+.left-content p,
+.right-content p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.email p,
+.awayste p {
+    margin-top: -8px;
+}
+
+@media (min-width: 768px) {
+
+    .left-content,
+    .right-content {
+        flex-direction: row;
+    }
+}
