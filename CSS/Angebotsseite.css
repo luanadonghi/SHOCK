@@ -1,13 +1,9 @@
 body {
 
 
-        margin: 0;
-        padding: 0;
-        background-image: url( Bilder/Angebotsseite/DSCF3971.JPG);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh; /* 100% der Viewport-Höhe */
+    background-image: url(../Bilder/Angebotsseite/DSCF3971\ zugeschnitten\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 
     background-color: #F2CC0C;
