@@ -80,11 +80,12 @@ footer {
 
 .left-content p,
 .right-content p,
-.email,
-.awayste,
-.facebook,
-.instagram {
+.impressum p,
+.awayste p,
+.facebook p,
+.instagram p {
     margin: 0;
+    font-size: 22px; 
 }
 
 .left-content p,
@@ -93,7 +94,7 @@ footer {
     margin-top: 5px;
 }
 
-.email p,
+.impressum p,
 .awayste p {
     margin-top: -8px;
 }
