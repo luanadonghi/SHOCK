@@ -9,7 +9,6 @@ body {
     background-color: #F2CC0C;
     display: grid;
     grid-template-columns: 473px 1fr 237px;
-    grid-template-rows: 1343px 1fr;
 }
 
 .container {
@@ -36,22 +35,19 @@ grid-column: 3/ span 1;
 
 
 h1 {
+    margin: 0;
     font-family: "paralucent";
-    font-size: 467px;
+    font-size: 500px;
     color: white;
     text-align: left;
     padding: top 50px;
-    /* margin: -220px; */
-    /* margin-top: -1100px; */
+    line-height: 80%;
+
 }
 
-h2{
-    font-family: "paralucent";
-    font-size: 316px;
-    color: white;
-    text-align: left;
-    padding-top: 50px;
-    /* margin-top: -1000px; */
-    /* margin: -220px; */
-}
+
+.abfall-title {
+    font-size: 300px;
+    text-align: 330px;}
+
 
