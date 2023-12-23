@@ -1,13 +1,13 @@
-body (
-    background-image: /bilder/konaktseite.jpg;
+body {
 
-)
- 
-
-.background-image{
-    height: 100%
-    width: 100%
-    object-fit: cover;
+    .background-image {
+        height: 100%
+        width 100%
+        object-fit cover;
+    }
+   
+    display: grid;
+    grid-template-columns: 473px 1fr 237px;
 }
 
 .container {
@@ -23,16 +23,28 @@ grid-column: 3/ span 1;
     padding-top: 315px;
 }
 
-
 #login a,
 #favoriten a,
 #uberuns a,
-#blog a,
+#kontakt a,
 #angebot a {
     text-decoration: none;
     color: white;
 }
-footer {
+
+h1 {
+    margin: 0;
+    font-family: "paralucent";
+    font-size: 500px;
+    color: white;
+    text-align: left;
+    padding: top 50px;
+    line-height: 80%;
+
+}
+
+
+footer { 
     color: #fff;
     padding: 10px;
     position: fixed;
@@ -44,3 +56,8 @@ footer {
     justify-content: space-between;
     font-family: "Paralucent", sans-serif;
 }
+    
+
+
+
+
