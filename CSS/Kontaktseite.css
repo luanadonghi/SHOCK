@@ -1,0 +1,46 @@
+body (
+    background-image: /bilder/konaktseite.jpg;
+
+)
+ 
+
+.background-image{
+    height: 100%
+    width: 100%
+    object-fit: cover;
+}
+
+.container {
+grid-column: 3/ span 1;
+}
+
+.burger {
+    position: fixed;
+    font-family: "paralucent";
+    font-size: 40px;
+    list-style: none;
+    text-align: right;
+    padding-top: 315px;
+}
+
+
+#login a,
+#favoriten a,
+#uberuns a,
+#blog a,
+#angebot a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Paralucent", sans-serif;
+}

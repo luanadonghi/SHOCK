@@ -1,0 +1,28 @@
+body {
+    background-color: #F2CC0C;
+    display: grid;
+    grid-template-columns: 473px 1fr 237px;
+    grid-template-rows: 1343px 1fr;
+}
+
+.container {
+grid-column: 3/ span 1;
+}
+
+.burger {
+    position: fixed;
+    font-family: "paralucent";
+    font-size: 40px;
+    list-style: none;
+    text-align: right;
+    padding-top: 315px;
+}
+
+#login a,
+#favoriten a,
+#uberuns a,
+#blog a,
+#angebot a {
+    text-decoration: none;
+    color: white;
+}
