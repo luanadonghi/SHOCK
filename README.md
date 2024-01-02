@@ -1,4 +1,4 @@
-# __SHOCK__
+# SHOCK
  Das beste Startup der Welt 
 
 #### Team 
