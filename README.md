@@ -1,4 +1,4 @@
-# ** SHOCK **
+#__ SHOCK__
  Das beste Startup der Welt 
 
 #### Team 
