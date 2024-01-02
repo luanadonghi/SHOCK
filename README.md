@@ -9,9 +9,9 @@
 
 ## Idee
 
-## Dokumentation
+### Dokumentation
 
-#Quellen und Methodik
+##Quellen und Methodik
 
 Methodik
 text...
@@ -26,7 +26,7 @@ Problemlösung und Forschung
 text...
 
 
-#Quellen
+##Quellen
 
 Dieser Abschnitt listet die Hauptressourcen auf, die während des Projekts genutzt wurden.
 
@@ -40,13 +40,13 @@ ChatGPT
 text...
 
 
-#Planung
+##Planung
 text...
 
 
-#Umsetzung
+##Umsetzung
 text...
 
 
-#Herausforderungen
+##Herausforderungen
 text...
