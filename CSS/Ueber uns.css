@@ -3,7 +3,7 @@ body {
     display: grid;
     grid-template-columns: 473px 1fr 237px;
     grid-template-rows: 1050px 867px 1090px 1005px;
-    background-image: url(/Bilder/team/DSCF3946.JPG);
+    background-image: url(/Bilder/Team/DSCF3946.jpg);
     background-size: 100% 1925px;
     background-position: center top;
     background-repeat: no-repeat;
