@@ -139,6 +139,21 @@ h3 {
 
 }
 
+.birthyearlulu {
+    font-family: "paralucent";
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 96px;
+    color: white;
+    writing-mode:horizontal-tb;
+
+    justify-self: start;
+    align-self: end;
+    margin-left: -595px;
+    margin-bottom: 2px;
+}
+
+
 .luluone {
     width: 650px;
     height: 976px;
@@ -151,7 +166,7 @@ h3 {
 
 .lulutwo {
     width: 400px;
-    height: 600px;
+    height: 605px;
 
     align-self: center;
     margin-left: 30px;
