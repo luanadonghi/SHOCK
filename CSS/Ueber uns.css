@@ -134,7 +134,7 @@ h3 {
 
     justify-self: start;
     align-self: end;
-    margin-left: -75px;
+    margin-left: -40px;
     margin-bottom: 12px;
 
 }
@@ -195,12 +195,13 @@ h3 {
     justify-self: end;
     align-self: end;
     margin-bottom: 12px;
-    margin-right: 0px;
+    margin-right: -75px;
     
 
 }
 
-.simsimtwo {
+
+.simsimone {
     width: 400px;
     height: 600px;
 
@@ -209,11 +210,64 @@ h3 {
 
 }
 
-.simsimone {
+.simsimtwo {
     width: 650px;
     height: 975px;
 
     align-self: center;
     margin-left: 30px;
 
+}
+
+footer {
+    background-color: #FFE76E;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Paralucent", sans-serif;
+}
+
+.left-content
+ {
+    padding-left: 50px;
+}
+
+.right-content
+ {
+    padding-right: 50px;
+}
+
+.left-content p,
+.right-content p,
+.impressum p,
+.awayste p,
+.facebook p,
+.instagram p {
+    margin: 0;
+    font-size: 22px; 
+}
+
+.left-content p,
+.right-content p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.impressum p,
+.awayste p {
+    margin-top: -8px;
+}
+
+@media (min-width: 768px) {
+
+    .left-content,
+    .right-content {
+        flex-direction: row;
+    }
 }
