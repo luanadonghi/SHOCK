@@ -114,7 +114,64 @@ h3 {
 
 }
 
+h4 {
+    grid-column: 1/ span 2;
+    grid-row: 5/ span 1;
+    font-family: "paralucent";
+    font-style: italic;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 16px;
+    font-weight: 700;
+    color: white;
+    margin-left: 22px;
+}
 
+.philosophie {
+    grid-column: 1/ span 2;
+    grid-row: 5/ span 1;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    line-height: 48px;
+    margin-left: 22px;
+    margin-top: 90px;
+}
+
+h5 {
+    grid-column: 1/ span 2;
+    grid-row: 6/ span 1;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    line-height: 48px;
+    margin-left: 22px;
+    margin-top: 90px;
+}
+
+.registrierknopf {
+    grid-column: 1/ span 2;
+    grid-row: 7/ span 1;
+        padding: 20px 10px;
+        width: 355px;
+        height: 90px;
+        border-radius: 29px;
+        font-size: 35px;
+        font-family: paralucent;
+        font-weight: 500px;
+        line-height: 42px;
+        cursor: pointer;
+
+        background-color: white; 
+        color: #F2CC0C;
+
+        border: 2px solid #F2CC0C;
+        border-radius: 5px;
+    
+        transition: background-color 0.3s;
+    }
 
 .luana {
     grid-column: 1/span 2;
@@ -235,7 +292,7 @@ h3 {
 
 .hanna {
     grid-column: 1/span 2;
-    grid-row: 5/span 1;
+    grid-row: 9/span 1;
 
     display: flex;
 }
@@ -266,7 +323,7 @@ h3 {
 
     justify-self: start;
     align-self: end;
-    margin-left: -595px;
+    margin-left: -620px;
     margin-bottom: 2px;
 }
 
@@ -291,7 +348,7 @@ h3 {
 
 .sylvie {
     grid-column: 1/span 2;
-    grid-row: 6/span 1;
+    grid-row: 10/span 1;
 
     display: flex;
 }
