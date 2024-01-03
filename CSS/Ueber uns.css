@@ -396,6 +396,56 @@ h5 {
 
 }
 
+.meldedich {
+    grid-column: 1/span 2;
+    grid-row: 12/span 1;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    line-height: 48px;
+    margin-left: 22px;
+    margin-top: 90px;
+
+
+}
+
+.kontaktknopf {
+    grid-column: 1/ span 2;
+    grid-row: 13/ span 1;
+        padding: 20px 10px;
+        width: 355px;
+        height: 90px;
+        border-radius: 29px;
+        font-size: 35px;
+        font-family: paralucent;
+        font-weight: 500px;
+        line-height: 42px;
+        cursor: pointer;
+
+        background-color: white; 
+        color: #F2CC0C;
+
+        border: 2px solid #F2CC0C;
+        border-radius: 5px;
+    
+        transition: background-color 0.3s;
+    }
+
+.freuenuns {
+    grid-column: 1/span 2;
+    grid-row: 13/span 1;
+    font-family: "paralucent";
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    line-height: 48px;
+    margin-left: 22px;
+    margin-top: 90px;
+
+}
+
 
 
 
