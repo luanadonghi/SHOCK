@@ -2,7 +2,7 @@ body {
     background-color: #F2CC0C;
     display: grid;
     grid-template-columns: 473px 1fr 237px;
-    grid-template-rows: 1050px 867px 1100px 1005px 300px 200px 80px 1005px 1005px;
+    grid-template-rows: 1050px 867px 1100px 1060px 500px 150px 200px 1005px 70px 1005px;
     background-image: url(/Bilder/Team/DSCF3946.jpg);
     background-size: 100% 1925px;
     background-position: center top;
@@ -103,24 +103,21 @@ h4 {
 
 .philosophie {
     grid-column: 1/ span 2;
-    grid-row: 5/ span 1;
+    grid-row: 5/ span 2;
     font-family: "paralucent";
     font-size: 40px;
-    font-weight: 500;
     color: white;
     line-height: 48px;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 h5 {
     grid-column: 1/ span 2;
-    grid-row: 6/ span 1;
+    grid-row: 6/ span 2;
     font-family: "paralucent";
     font-size: 40px;
-    font-weight: 500;
     color: white;
     line-height: 48px;
-    margin-top: 20px;
 }
 
 .registrierknopf {
@@ -131,13 +128,12 @@ h5 {
     background: white;
     color: #F2CC0C;
     border: none;
-    margin-top: 20px;
     float: right;
-    border-radius: 50px;
-    text-transform: uppercase;
+    border-radius: 29px;
     font-size: 20px;
-    width: 200px
-    }
+    width: 200px;
+    height: 60px;
+}
 
 .registrierknopf:hover {
      background: lightgray;
@@ -146,48 +142,37 @@ h5 {
 .luana {
     grid-column: 1/span 2;
     grid-row: 3/span 1;
-
+    margin-top: 90px;
+    margin-left: 10px;
     display: flex;
-
 }
 
 .namelulu {
     font-family: "paralucent";
     font-weight: 700;
     font-size: 200px;
-    line-height: 300px;
     color: white;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-
-    justify-self: start;
     align-self: end;
     margin-left: -40px;
     margin-bottom: 12px;
-
 }
 
 .birthyearlulu {
     font-family: "paralucent";
     font-weight: 500;
     font-size: 80px;
-    line-height: 96px;
     color: white;
-    writing-mode:horizontal-tb;
-
-    justify-self: start;
     align-self: end;
     margin-left: -595px;
     margin-bottom: 2px;
 }
 
-
 .luluone {
     width: 650px;
     height: 976px;
-
-    justify-self: start;
-    align-self: end;
+    align-self: flex-end;
     margin-left: -320px;
     margin-bottom: 15px;
 }
@@ -195,37 +180,28 @@ h5 {
 .lulutwo {
     width: 400px;
     height: 605px;
-
     align-self: center;
     margin-left: 30px;
-
 }
-
 
 .simon {
     grid-column: 1/span 2;
     grid-row: 4/span 1;
-
+    margin-left: 20px;
     display: flex;
+    align-self: flex-end;
 }
 
 .namesimsim {
-    grid-column: 2/span 1;
-    grid-row: 4 /span 1;
     font-family: "paralucent";
     font-weight: 700;
     font-size: 200px;
     line-height: 300px;
     color: white;
     writing-mode: vertical-lr;
-
-
-    justify-self: end;
     align-self: end;
     margin-bottom: 12px;
-    margin-right: -10px;
-    
-
+    margin-left: 310px;
 }
 
 .birthyearsimsim {
@@ -234,18 +210,14 @@ h5 {
     font-size: 80px;
     line-height: 96px;
     color: white;
-    writing-mode:horizontal-tb;
-
-    justify-self: end;
     align-self: end;
-    margin-left: -640px;
+    margin-left: -645px;
     margin-bottom: 2px;
 }
 
 .simsimone {
     width: 400px;
     height: 600px;
-
     align-self: center;
     margin-left: 10px;
 
@@ -254,7 +226,6 @@ h5 {
 .simsimtwo {
     width: 650px;
     height: 975px;
-
     align-self: center;
     margin-left: 30px;
 
@@ -262,8 +233,8 @@ h5 {
 
 .hanna {
     grid-column: 1/span 2;
-    grid-row: 9/span 1;
-
+    grid-row: 8/span 1;
+    margin-left: 10px;
     display: flex;
 }
 
@@ -271,27 +242,19 @@ h5 {
     font-family: "paralucent";
     font-weight: 700;
     font-size: 200px;
-    line-height: 300px;
     color: white;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-
-    justify-self: start;
     align-self: end;
     margin-left: -40px;
     margin-bottom: 12px;
-
 }
 
 .birthyearhaha {
     font-family: "paralucent";
     font-weight: 500;
     font-size: 80px;
-    line-height: 96px;
     color: white;
-    writing-mode:horizontal-tb;
-
-    justify-self: start;
     align-self: end;
     margin-left: -620px;
     margin-bottom: 2px;
@@ -300,8 +263,6 @@ h5 {
 .hahaone {
     width: 650px;
     height: 976px;
-
-    justify-self: start;
     align-self: end;
     margin-left: -320px;
     margin-bottom: 15px;
@@ -310,28 +271,28 @@ h5 {
 .hahatwo {
     width: 400px;
     height: 605px;
-
     align-self: center;
     margin-left: 30px;
-
 }
 
 .sylvie {
     grid-column: 1/span 2;
     grid-row: 10/span 1;
-
+    margin-left: 20px;
     display: flex;
+    align-self: flex-end;
 }
 
 .namesylsyl {
-    grid-column: 2/span 1;
-    grid-row: 6 /span 1;
     font-family: "paralucent";
     font-weight: 700;
     font-size: 200px;
     line-height: 300px;
     color: white;
     writing-mode: vertical-lr;
+    align-self: end;
+    margin-bottom: 12px;
+    margin-left: 330px;
 }
 
 .birthyearsylsyl {
@@ -340,18 +301,14 @@ h5 {
     font-size: 80px;
     line-height: 96px;
     color: white;
-    writing-mode:horizontal-tb;
-
-    justify-self: end;
     align-self: end;
-    margin-left: -640px;
-    margin-bottom: 2px;
+    margin-left: -645px;
+    margin-bottom: -2px;
 }
 
 .sylsylone {
     width: 400px;
     height: 600px;
-
     align-self: center;
     margin-left: 10px;
 
