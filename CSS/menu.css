@@ -1,0 +1,24 @@
+.container {
+    grid-column: 3/ span 1;
+}
+
+.burger {
+    position: fixed;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45px;
+    list-style: none;
+    text-align: right;
+    padding-top: 315px;
+}
+
+#login a,
+#favoriten a,
+#uberuns a,
+#blog a,
+#angebot a,
+#kontakt a {
+    text-decoration: none;
+    color: white;
+}

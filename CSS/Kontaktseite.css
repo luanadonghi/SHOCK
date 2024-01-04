@@ -16,22 +16,7 @@ body{
 
     display: grid;
     grid-template-columns: 473px 1fr 237px;
-    grid-template-rows: 1343px 1fr;
-}
-
-
-
-.container {
-grid-column: 3/ span 1;
-}
-
-.burger {
-    position: fixed;
-    font-family: "paralucent";
-    font-size: 40px;
-    list-style: none;
-    text-align: right;
-    padding-top: 315px;
+    grid-template-rows: 400px 500px 150px 350px;
 }
 
 #login a,
@@ -43,6 +28,12 @@ grid-column: 3/ span 1;
     color: white;
 }
 
+.titel {
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 1;
+
+    display: flex;
+}
 
 h1 {
     font-family: "paralucent";
@@ -58,8 +49,6 @@ h1 {
     padding: top 50px;
     line-height: 80%;
 }
-
-
 
 .bigh1 {
     font-family: "paralucent";
@@ -77,13 +66,6 @@ h1 {
     line-height: 80%;
     
 }
-    
-
-
-    
-   
-
-
 
 h2{ 
     font-family: paralucent;
@@ -100,17 +82,74 @@ h2{
 
 }
 
-footer { 
-    color: #fff;
+
+.form {
+    grid-column: 1/ span 2;
+    grid-row: 2/ span 1;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    line-height: 48px;
+
+    margin-left: 22px;
+    margin-top: 90px;
+
+}
+
+form {
+    width: 700px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+input:focus-visible {
+    outline: none;
+    border-bottom: 3px solid white;
+}
+
+.btn {
+    display: block;
+    padding: 10px 30px;
+    background: white;
+    color: #e9490a;
+    border: none;
+    margin-top: 20px;
+    float: right;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: lightgray;
+}
+
+.map {
+    grid-column: 1/ span 2;
+    grid-row: 3/ span 1;
+
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: "Paralucent", sans-serif;
+}
+
+footer { 
+    background-color: transparent;
 }
     
 

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>awayste - Kontaktseite</title>
+    <link rel="stylesheet" href="/CSS/menu.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
     <link rel="stylesheet" href="/CSS/Kontaktseite.css">
     <link rel="stylesheet" href="https://use.typekit.net/wwd5yxa.css">
 </head>
@@ -39,11 +41,23 @@
 
     </div>
    
-    <h1>KONTAKTIER</br><span class="bigh1">UNS</span></h1>
+    <div class="titel">
+        <h1>KONTAKTIER</br><span class="bigh1">UNS</span></h1>
+    </div>
+    
+    <div class="form">
+        <form>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="text" id="name" name="message" placeholder="Was möchtest Du uns fragen/mitteilen?" required>
 
-    <h2>HIER FINDEST DU UNS</h2>
+            <button type="submit" class="btn">Absenden</button>
+        </form>
+    </div>
 
-
+    <div class="map">
+        <h2>HIER FINDEST DU UNS</h2>
+    </div>
 </body>
  
 
@@ -51,7 +65,7 @@
     <div class="left-content">
       <p>Adresse</p>
       <p>Email</p>
-    </div> 
+    </div>
 
    
     <div class="impressum">
@@ -62,10 +76,11 @@
         <p>Awayste.ch</p>
       </div>
 
-      <div class="right.content">
+      <div class="right-content">
         <p>Facebook</p>
         <p>Instagram</p>
     </div>
 
+</footer>
 </html>
 

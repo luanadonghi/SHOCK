@@ -1,0 +1,52 @@
+footer {
+    background-color: #FFE76E;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Paralucent", sans-serif;
+}
+
+.left-content
+ {
+    padding-left: 50px;
+}
+
+.right-content
+ {
+    padding-right: 50px;
+}
+
+.left-content p,
+.right-content p,
+.impressum p,
+.awayste p,
+.facebook p,
+.instagram p {
+    margin: 0;
+    font-size: 22px; 
+}
+
+.left-content p,
+.right-content p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.impressum p,
+.awayste p {
+    margin-top: -8px;
+}
+
+@media (min-width: 768px) {
+
+    .left-content,
+    .right-content {
+        flex-direction: row;
+    }
+}
