@@ -2,6 +2,18 @@
     grid-column: 3/ span 1;
 }
 
+.logo {
+    grid-row: 1 / span 1;
+    position: fixed;
+    margin-left: 9.5%;
+}
+
+.logobild {
+    height: 27px;
+    width: 98px;
+    align-self: flex-start;
+}
+
 .burger {
     position: fixed;
     font-family: "paralucent";
@@ -22,3 +34,4 @@
     text-decoration: none;
     color: white;
 }
+
