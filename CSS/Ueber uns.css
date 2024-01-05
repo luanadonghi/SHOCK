@@ -2,7 +2,7 @@ body {
     background-color: #F2CC0C;
     display: grid;
     grid-template-columns: 473px 1fr 237px;
-    grid-template-rows: 1050px 867px 1100px 1060px 500px 150px 200px 1005px 70px 1005px;
+    grid-template-rows: 1050px 867px 1100px 1060px 500px 150px 200px 1005px 70px 1005px 140px 150px 80px 360px;
     background-image: url(/Bilder/Team/DSCF3946.jpg);
     background-size: 100% 1925px;
     background-position: center top;
@@ -147,7 +147,7 @@ h5 {
     font-weight: 500;
     color: white;
     line-height: 48px;
-    margin-top: 70px;
+    margin-top: 5px;
 }
 
 .kontaktknopf {
@@ -163,6 +163,7 @@ h5 {
     font-size: 20px;
     width: 200px;
     height: 60px;
+    margin-top: 20px;
 }
 
 .kontaktknopf:hover {
@@ -171,13 +172,14 @@ h5 {
 
 .freuenuns {
     grid-column: 1/span 2;
-    grid-row: 13/span 1;
+    grid-row: 14/span 1;
     font-family: "paralucent";
     font-size: 40px;
     font-weight: 500;
     color: white;
     line-height: 48px;
-    margin-top: 90px;
+    margin-bottom: 150px;
+    margin-top: 20px;
 }
 
 .luana {
@@ -241,15 +243,13 @@ h5 {
     color: white;
     writing-mode: vertical-lr;
     align-self: end;
-    margin-bottom: 12px;
     margin-left: 310px;
 }
 
 .birthyearsimsim {
     font-family: "paralucent";
-    font-weight: 500;
     font-size: 80px;
-    line-height: 96px;
+    line-height: 65px;
     color: white;
     align-self: end;
     margin-left: -645px;
@@ -338,13 +338,12 @@ h5 {
 
 .birthyearsylsyl {
     font-family: "paralucent";
-    font-weight: 500;
     font-size: 80px;
-    line-height: 96px;
+    line-height: 65px;
     color: white;
     align-self: end;
     margin-left: -645px;
-    margin-bottom: -2px;
+    margin-bottom: 2px;
 }
 
 .sylsylone {
