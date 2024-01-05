@@ -1,9 +1,25 @@
-body {
-    background-color: #F2CC0C;
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 50%;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Bilder/Impressum/DSCF3932.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll; 
+
     display: grid;
     grid-template-columns: 473px 1fr 237px;
     grid-template-rows: 1343px 1fr;
 }
+
+
 
 .container {
 grid-column: 3/ span 1;
@@ -21,8 +37,115 @@ grid-column: 3/ span 1;
 #login a,
 #favoriten a,
 #uberuns a,
-#blog a,
+#kontakt a,
 #angebot a {
     text-decoration: none;
     color: white;
+}
+
+.titel {
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 1;
+
+    display: flex;
+}
+
+
+
+h1 {
+    font-family: "paralucent";
+    font-size: 350px;
+    color: white;
+    padding: top 50px;
+    padding-left: 7px;
+    font-family: Paralucent;
+    font-weight: 700;
+
+    margin: 0;
+    text-align: left;
+    padding: top 50px;
+    line-height: 80%;
+}
+
+h2 {
+    font-family: "paralucent";
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin: 0;
+    text-align: left;
+    padding: top 50px;
+    line-height: 80%;
+}
+
+
+.adresse {
+    grid-column: 1/ span 1;
+    grid-row: 2/ span 1;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    line-height: 48px;
+
+    margin-left: 22px;
+    margin-top: 90px;
+}
+
+
+footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Paralucent", sans-serif;
+}
+
+.left-content
+ {
+    padding-left: 50px;
+}
+
+.right-content
+ {
+    padding-right: 50px;
+}
+
+.left-content p,
+.right-content p,
+.impressum p,
+.awayste p,
+.facebook p,
+.instagram p {
+    margin: 0;
+    font-size: 22px; 
+}
+
+.left-content p,
+.right-content p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.impressum p,
+.awayste p {
+    margin-top: -8px;
+}
+
+@media (min-width: 768px) {
+
+    .left-content,
+    .right-content {
+        flex-direction: row;
+    }
 }
