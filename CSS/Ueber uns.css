@@ -2,7 +2,18 @@ body {
     background-color: #F2CC0C;
     display: grid;
     grid-template-columns: 473px 1fr 237px;
-    grid-template-rows: 1050px 867px 60px 1005px 1005px 500px 150px 200px 1005px 70px 1005px 140px 150px 80px 360px;
+    grid-template-rows: 1050px 867px 330px 1005px 70px 1005px 70px 680px 70px 1005px 70px 1005px 50px 500px 40px 900px;
+    background-image: url(/Bilder/Team/DSCF3946.jpg);
+    background-size: 100% 25%;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: #F2CC0C;
+    display: grid;
+    grid-template-columns: 473px 1fr 237px;
+    grid-template-rows: 1050px 867px 330px 1005px 70px 1005px 70px 680px 70px 1005px 70px 1005px 50px 500px 40px 900px;
     background-image: url(/Bilder/Team/DSCF3946.jpg);
     background-size: 100% 25%;
     background-position: center top;
@@ -12,7 +23,6 @@ body {
 .titel {
     grid-column: 1/ span 2;
     grid-row: 1/ span 1;
-
     display: flex;
 }
 
@@ -86,7 +96,7 @@ h3 {
 
 .philosophie {
     grid-column: 1/ span 2;
-    grid-row: 6/ span 2;
+    grid-row: 8/ span 2;
     font-family: "paralucent";
     font-size: 40px;
     color: white;
@@ -100,7 +110,7 @@ h4 {
 
 .kontakt {
     grid-column: 1/span 2;
-    grid-row: 13/span 1;
+    grid-row: 14/span 1;
     font-family: "paralucent";
     font-size: 40px;
     color: white;
@@ -147,19 +157,19 @@ h4 {
 
 .simon {
     grid-column: 1/span 1;
-    grid-row: 5/span 1;
+    grid-row: 6/span 1;
     display: flex;
 }
 
 .hanna {
     grid-column: 1/span 1;
-    grid-row: 9/span 1;
+    grid-row: 10/span 1;
     display: flex;
 }
 
 .sylvie {
     grid-column: 1/span 1;
-    grid-row: 11/span 1;
+    grid-row: 12/span 1;
     display: flex;
 }
 
@@ -234,10 +244,3 @@ h4 {
     align-self: center;
     margin-left: 30px;
 }
-
-
-
-
-
-
-
