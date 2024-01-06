@@ -123,6 +123,13 @@ h4 {
     color: white;
 }
 
+.film {
+    grid-column: 1/span 2;
+    grid-row: 16/span 2;
+    display: flex;
+    justify-content: left;
+}
+
 .luana {
     grid-column: 1/span 1;
     grid-row: 4/span 1;
@@ -218,6 +225,7 @@ h4 {
     align-self: center;
     margin-left: 30px;
 }
+
 
 
 
