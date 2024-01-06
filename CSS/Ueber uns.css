@@ -123,6 +123,15 @@ h4 {
     color: white;
 }
 
+.button a {
+    color: #F2CC0C;
+    text-decoration: none;
+}
+
+.button:hover a {
+    color: white; 
+}
+
 .film {
     grid-column: 1/span 2;
     grid-row: 16/span 2;
