@@ -1,8 +1,8 @@
 body {
     background-color: #F2CC0C;
     display: grid;
-    grid-template-columns: 32.85% 50.69% 16.46%;
-    grid-template-rows: 12.05% 9.95% 3.79% 11.53% 0.80% 11.53% 0.80% 7.80% 0.80% 11.53% 0.80% 11.53% 0.57% 5.74% 0.46% 10.32%;
+    grid-template-columns: 473px 1fr 237px;
+    grid-template-rows: 1050px 867px 330px 1005px 70px 1005px 70px 680px 70px 1005px 70px 1005px 50px 500px 40px 900px;
     background-image: url(/Bilder/Team/DSCF3946.jpg);
     background-size: 100% 25%;
     background-position: center top;
@@ -12,7 +12,7 @@ body {
 .titel {
     grid-column: 1/ span 2;
     grid-row: 1/ span 1;
-
+    
     display: flex;
 }
 
