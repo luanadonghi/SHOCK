@@ -12,26 +12,53 @@ body {
 }
 
 .container {
-grid-column: 3/ span 1;
+    position: fixed;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45px;
+    list-style: none;
+    text-align: right;
+    padding-top: 315px;
+    grid-column: 3/ span 1;
+}
+
+.logo {
+    grid-row: 1 / span 1;
+    position: fixed;
+    margin-left: 9%;
+    padding-top: 10px;
+}
+
+.logobild {
+    height: 27px;
+    width: 98px;
+    align-self: flex-start;
+
 }
 
 .burger {
     position: fixed;
     font-family: "paralucent";
     font-size: 40px;
+    font-weight: 500;
+    line-height: 45px;
     list-style: none;
     text-align: right;
     padding-top: 315px;
 }
 
+
 #login a,
 #favoriten a,
 #uberuns a,
-#kontakt a,
-#angebot a {
+#blog a,
+#angebot a,
+#kontakt a {
     text-decoration: none;
     color: white;
 }
+
 
 
 h1 {
@@ -48,13 +75,12 @@ h1 {
 
 .abfall-title {
     font-size: 300px;
-    }
+}
 
 
- .container {
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    }
 
+}
