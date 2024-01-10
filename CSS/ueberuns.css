@@ -106,32 +106,6 @@ h4 {
     color: white;
 }
 
-.button {
-    display: block;
-    padding: 0.694vw 2.083vw;
-    background: white;
-    color: #F2CC0C;
-    border: none;
-    border-radius: 1.042vw;
-    font-size: 1.389vw;
-    width: 13.889vw;
-    height: 4.167vw;
-}
-
-.button:hover {
-    background: #FFE76E;
-    color: white;
-}
-
-.button a {
-    color: #F2CC0C;
-    text-decoration: none;
-}
-
-.button:hover a {
-    color: white; 
-}
-
 .film {
     grid-column: 1/span 2;
     grid-row: 16/span 2;
