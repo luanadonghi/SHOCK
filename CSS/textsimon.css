@@ -1,0 +1,17 @@
+body {
+    background-color: #F2CC0C;
+    display: grid;
+    grid-template-columns: 473px 1fr 237px;
+    grid-template-rows: 1050px 867px 330px 1005px 70px 1005px 70px 680px 70px 1005px 70px 1005px 50px 500px 40px 900px;
+    background-image: url(/Bilder/Team/DSCF3946.jpg);
+    background-size: 100% 24%;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.titel {
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 1;
+    
+    display: flex;
+}
