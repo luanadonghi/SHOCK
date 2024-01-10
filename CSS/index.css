@@ -1,108 +1,43 @@
 body {
-
-
-    background-image: url(../Bilder/Homepage/DSCF3780.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-
     background-color: #F2CC0C;
     display: grid;
     grid-template-columns: 473px 1fr 237px;
-    grid-template-rows: 1343px 1fr;
+    grid-template-rows: 1050px 867px 330px 1005px 70px 1005px 70px 680px 70px 1005px 70px 1005px 50px 500px 40px 900px;
+    background-image: url(/Bilder/Homepage/DSCF3780\ bearbeitet.jpg);
+    background-size: 100% 34%;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
-.container {
-    grid-column: 3/ span 1;
-    }
+.titel {
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 1;
     
-.burger {
-    position: fixed;
-    font-family: "paralucent";
-    font-size: 40px;
-    list-style: none;
-    text-align: right;
-    padding-top: 315px;
-}
-
-#login a,
-#favoriten a,
-#uberuns a,
-#kontakt a,
-#angebot a {
-    text-decoration: none;
-    color: white;
-}
-
-h1 {
-    font-family: "paralucent";
-    font-size: 467px;
-    color: white;
-    text-align: center;
-    padding: top 50px;
-    /* margin: -220px; */
-    margin-top: -1100px;
-}
-
-h2{
-    font-family: "paralucent";
-    font-size: 316px;
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-    margin-top: -1000px;
-    /* margin: -220px; */
-}
-
-footer {
-    background-color: #FFE76E;
-    color: #fff;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: "Paralucent", sans-serif;
 }
 
-.left-content
- {
-    padding-left: 50px;
+h2 {
+    color: #FFF;
+    text-align: right;
+    font-family: Paralucent;
+    font-size: 170px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150px;
+    align-self: flex-start;
+    margin-left: 0.625vw;
+    margin-top: 2109px;
+    color: white;
+   
 }
 
-.right-content
- {
-    padding-right: 50px;
-}
-
-.left-content p,
-.right-content p,
-.impressum p,
-.awayste p,
-.facebook p,
-.instagram p {
-    margin: 0;
-    font-size: 22px; 
-}
-
-.left-content p,
-.right-content p{
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.impressum p,
-.awayste p {
-    margin-top: -8px;
-}
-
-@media (min-width: 768px) {
-
-    .left-content,
-    .right-content {
-        flex-direction: row;
-    }
+h3 {
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 73.6px;
+    justify-self: flex-start;
+    margin-top: 2109px
 }
