@@ -4,7 +4,7 @@ body {
     grid-template-columns: 32.85% 50.69% 16.46%;
     grid-template-rows: 12.05% 9.95% 6% 11.53% 2% 11.53% 2% 10% 2% 11.53% 2% 11.53% 2% 5.74% 2% 10.32%;
     background-image: url(/Bilder/Team/DSCF3946.jpg);
-    background-size: 100% 24%;
+    background-size: 100% 130.681vw;
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -207,4 +207,45 @@ h4 {
     height: 67.708vw;
     align-self: center;
     margin-left: 2.083vw;
+}
+
+.luanalinks {
+    display: flex;
+}
+
+@media (max-width: 1000px) {
+    
+    .bildlinkstwo {
+        display: none;
+    }
+
+    .bildrechtsone {
+        display: none;
+    }
+
+    .bildlinksone {
+        width: 70vw;
+        height: 105.1078vw;
+        align-self: flex-end;
+        margin-left: -22.222vw;
+        margin-bottom: 1.042vw;
+    }
+
+    .bildrechtstwo {
+        width: 70vw;
+        height: 105.1078vw;
+        align-self: center;
+        margin-left: 2.083vw;
+    }
+
+    .birthyearlinks {
+        font-family: "paralucent";
+        font-weight: 550;
+        font-size: 5.556vw;
+        color: white;
+        align-self: end;
+        margin-left: -14vw;
+        margin-bottom: 0.694vw;
+    }
+
 }
