@@ -10,8 +10,8 @@ body {
     background-color: #F2CC0C;
 
     display: grid;
-    grid-template-columns: 473px 1fr 237px;
-    grid-template-rows: 37.5% 20%
+    grid-template-columns: 32.85% 50.69% 16.46%;
+    grid-template-rows: 37.5% 20% 54%
 }
 
 /* Title */
@@ -28,7 +28,7 @@ h1 {
 p {
     font-family: paralucent;
     color: white;
-    font-size: 1vw;
+    font-size: 3vw;
 }
 
 
@@ -119,9 +119,11 @@ p {
 
 /* Text 1 */
 
-.texteins {
+.textblockeins {
     display: flex;
     grid-column: 1/ span 2;
+    grid-row: 3/ span 1;
+    align-self: flex-end;
 }
 
 .bildeins {
@@ -130,4 +132,11 @@ p {
     padding-left: 1vw;
     border-left: #FFE76E solid 0.25vw;
 }
-.
+
+.texteinseins{
+    margin-bottom: 2vw;
+}
+
+.texteinszwei{
+    margin-bottom: 0vw;
+}
