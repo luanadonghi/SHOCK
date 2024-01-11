@@ -1,56 +1,24 @@
-*{
+/* general ------------------------------------------------------------------------------------------ */
+
+* {
     padding: 0;
     margin: 0;
 }
-html{
-    height: 50%;
-}
 
 body{
-    height: 100vh;
     width: 100%;
     background-image: url(../Bilder/Impressum/DSCF3932.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll; 
-
-    display: grid;
-    grid-template-columns: 473px 1fr 237px;
-    grid-template-rows: 1343px 1fr;
 }
 
-
-
-.container {
-grid-column: 3/ span 1;
-}
-
-.burger {
-    position: fixed;
-    font-family: "paralucent";
-    font-size: 40px;
-    list-style: none;
-    text-align: right;
-    padding-top: 315px;
-}
-
-#login a,
-#favoriten a,
-#uberuns a,
-#kontakt a,
-#angebot a {
-    text-decoration: none;
-    color: white;
-}
+/* impressum specifics ------------------------------------------------------------------------------------------ */
 
 .titel {
-    grid-column: 1/ span 2;
-    grid-row: 1/ span 1;
-
+    margin-left: 55px;
     display: flex;
 }
-
-
 
 h1 {
     font-family: "paralucent";
@@ -82,42 +50,126 @@ h2 {
     line-height: 80%;
 }
 
-
-.adresse {
-    grid-column: 1/ span 1;
-    grid-row: 2/ span 1;
+.datenimpressum {
     font-family: "paralucent";
-    font-size: 40px;
-    font-weight: 500;
     color: white;
     line-height: 48px;
-
-    margin-left: 22px;
+    margin-left: 55px;
     margin-top: 90px;
+    border-left: 5px solid white;
+    padding-left: 57px;
+    padding-top: 168px;
+    padding-bottom: 50px;
+}
+
+.datenimpressum h2 {
+    margin-top: 2em;
+    
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text {
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 
+/* logo ------------------------------------------------------------------------------------------ */
+
+.logo {
+    position: fixed;
+    right: 20px;
+    top: 16px;
+}
+
+.logobild {
+    height: 27px;
+    width: 98px;
+}
+
+/* navigation ------------------------------------------------------------------------------------------ */
+
+.burger {
+    position: fixed;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45px;
+    list-style: none;
+    text-align: right;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer ------------------------------------------------------------------------------------------ */
+
 footer {
+    
+    border-top: 5px solid white;
     background-color: transparent;
     color: #fff;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: "Paralucent", sans-serif;
 }
 
-.left-content
- {
+
+.left-content p,
+.right-content p,
+.impressum p,
+.awayste p,
+.facebook p,
+.instagram p {
+    margin: 0;
+    font-size: 22px; 
+}
+
+.left-content p,
+.right-content p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.impressum p,
+.awayste p {
+    margin-top: -8px;
+}
+
+@media (min-width: 768px) {
+
+    .left-content,
+    .right-content {
+        flex-direction: row;
+    }
+}
+
+
+.left-content {
     padding-left: 50px;
 }
 
-.right-content
- {
+.right-content {
     padding-right: 50px;
 }
 

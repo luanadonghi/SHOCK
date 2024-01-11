@@ -1,8 +1,9 @@
 footer {
+
+    border-top: 5px solid white;
     background-color: transparent;
     color: #fff;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -10,6 +11,8 @@ footer {
     align-items: center;
     justify-content: space-between;
     font-family: "Paralucent", sans-serif;
+    grid-column: 1/span2;
+    grid-row:1000;
 }
 
 .left-content {
