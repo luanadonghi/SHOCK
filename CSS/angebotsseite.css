@@ -11,36 +11,52 @@ body {
 
     display: grid;
     grid-template-columns: 473px 1fr 237px;
-    grid-template-rows: 1000px 500px
+    grid-template-rows: 37.5% 20%
 }
 
+/* Title */
+
+h1 {
+    margin: 0vw;
+    font-family: "paralucent";
+    color: white;
+    text-align: left;
+    line-height: 70%;
+
+}
+
+p {
+    font-family: paralucent;
+    color: white;
+    font-size: 1vw;
+}
+
+
+/* Menü */
+.Menulinie {
+    grid-column: 3/span 1;
+    grid-row-end: span 4;
+    border-left: #FFE76E solid 0.25vw;
+
+}
 .container {
     display: flex;
     align-items: top;
     grid-column: 3/ span 1;
+    justify-content: space-around;
 }
 
 .logo {
-    /* grid-column: 3 / span 1; */
-    /* margin-left: 9%; */
     position: fixed;
     padding-top: 10px;
-    /* width: 100%; */
     padding-left: 130px;
-    /* text-align: right; */
 }
 
 .logobild {
-    /* grid-column: 3 / span 1; */
-   
     height: 27px;
     width: 98px;
-    
-    /* position: sticky; */
-    /* top: 13px; */
-    /* align-self: flex-start; */
-
 }
+
 
 .burger {
     position: fixed;
@@ -54,43 +70,64 @@ body {
 }
 
 
-#login a,
-#favoriten a,
-#uberuns a,
-#blog a,
-#angebot a,
+#login a {
+    text-decoration: none;
+    color: white;
+}
+
+#favoriten a {
+    text-decoration: none;
+    color: white;
+}
+
+#uberuns a {
+    text-decoration: none;
+    color: white;
+}
+
+#blog a {
+    text-decoration: none;
+    color: white;
+}
+
+#angebot a {
+    text-decoration: underline;
+    text-decoration-thickness: 0.13vw;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 0.3vw;
+    color: white
+}
+
 #kontakt a {
     text-decoration: none;
     color: white;
 }
 
+
+/* Titelblatt */
+
 .starttitel {
-    font-size: 10vw;
-    diaplay: flex;
+    font-size: 13vw;
     grid-column: 1/ span 2;
     grid-row: 1/ span 1;
 }
 
-h1 {
-    margin: 0;
-    font-family: "paralucent";
-    /* font-size: 500px; */
-    color: white;
-    text-align: left;
-    padding: top 50px;
-    line-height: 80%;
-
-}
-
-
 .abfall-title {
-    font-size: 10vw;
+    font-size: 17vw;
+    margin-left: 2vw;
 }
 
+/* Text 1 */
 
-.container {
+.texteins {
     display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
-
+    grid-column: 1/ span 2;
 }
+
+.bildeins {
+    height: 70vw;
+    margin-right: 1vw;
+    padding-left: 1vw;
+    border-left: #FFE76E solid 0.25vw;
+}
+.
