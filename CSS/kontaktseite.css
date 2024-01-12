@@ -194,6 +194,7 @@ h2{
     grid-row: 3/ span 1; */
     padding-left: 17px
 
+
     /* display: flex; */
 }
 
@@ -201,13 +202,21 @@ h2{
     background-color: transparent;
 } */
     
+.Karte {
+    width: 805px;
+    height: 338px;
+    padding-left: 376px; 
+    padding-right: 260px;
+}
+
 
 /* Kontaktformular ------------------------------------------------------------------------------------------ */
 .form {
     grid-column: 1/ span 2;
     grid-row: 2/ span 1;
     font-family: "paralucent";
-    font-size: 40px;
+    font-style: normal;
+    font-size: 30px;
     font-weight: 500;
     color: white;
     line-height: 48px;
@@ -252,9 +261,12 @@ input:focus-visible {
     border: none;
     margin-top: 20px;
     float: right;
-    border-radius: 50px;
+    border-radius: 29px;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 35px;
+    width: 290px;
+    height: 74px; 
+
 }
 
 .btn:hover {
