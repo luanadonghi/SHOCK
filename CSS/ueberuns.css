@@ -64,13 +64,11 @@ h3 {
 
 .geschichtetext {
     display: flex;
-    font-family: "paralucent";
     font-size: 2.778vw;
     font-weight: 500;
-    color: white;
     line-height: 3.333vw;
     margin-left: 1.528vw;
-    margin-top: 4vw;
+    margin-top: 0.1vw;
 }
 
 .storytwo {
@@ -228,6 +226,10 @@ h6 {
         margin-left: 2.083vw;
     }
 
+    .geschichtetext {
+        margin-top: -7vw;
+    }
+
 }
 
 
@@ -276,6 +278,9 @@ h6 {
     font-size: 1.389vw;
     width: 13.889vw;
     height: 4.167vw;
+
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 .button:hover {
