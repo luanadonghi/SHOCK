@@ -14,6 +14,8 @@ body{
     background-color: #F2CC0C;
 }
 
+/* texte ------------------------------------------------------------------------------------------ */
+
 .titel {
    display: flex;
    font-family: "paralucent";
@@ -54,19 +56,18 @@ h3 {
 .inhaltueberuns {
     font-family: "paralucent";
     color: white;
-    line-height: 48px;
+    font-size: 2.778vw;
+    line-height: 3.333vw;
     margin-right: 16vw;
-    margin-top: 90px;
+    margin-top: 6.250vw;
     border-right: 0.5vw solid #FFE76E;
     padding-right: 1vw;
-    padding-bottom: 50px;
+    padding-bottom: 3.472vw;
 }
 
 .geschichtetext {
     display: flex;
-    font-size: 2.778vw;
     font-weight: 500;
-    line-height: 3.333vw;
     margin-left: 1.528vw;
     margin-top: 0.1vw;
 }
@@ -79,18 +80,9 @@ h3 {
     margin-top: 10vw;
     margin-bottom: 10vw;
     margin-left: 1.528vw;
-
-    font-family: "paralucent";
-    font-size: 2.778vw;
-    color: white;
-    line-height: 3.333vw;
 }
 
 h4 {
-    font-family: "paralucent";
-    font-size: 2.778vw;
-    color: white;
-    line-height: 3.333vw;
     font-style: italic;
     letter-spacing: 1.111vw;
 
@@ -98,20 +90,10 @@ h4 {
 }
 
 h5 {
-    font-family: "paralucent";
-    font-size: 2.778vw;
-    color: white;
-    line-height: 3.333vw;
-
     margin-top: 3vw;
 }
 
 .kontakt {
-    
-    font-family: "paralucent";
-    font-size: 2.778vw;
-    color: white;
-    line-height: 3.333vw;
     font-style: italic;
 
     margin-bottom: 3vw;
@@ -120,24 +102,22 @@ h5 {
 }
 
 h6 {
-    font-family: "paralucent";
-    font-size: 2.778vw;
     font-style: normal;
-    color: white;
-    line-height: 3.333vw;
 }
 
-.filmbutton {
-    display: flex;
-    justify-content: left;
+@media (max-width: 1000px) {
+    
+    h3 {
+        margin-top: 7vw;
+    }
 
-    width: 60vw;
-    height: 40vw;
+    .geschichtetext {
+        margin-top: 5vw !important;
+    }
 
-    margin-top: 10vw;
-    margin-left: 11vw;
-    align-self: center;
 }
+
+/* bilder ------------------------------------------------------------------------------------------ */
 
 .vorschau {
     display: flex;
@@ -150,7 +130,7 @@ h6 {
 .luana {
     display: flex;
 
-    margin-top: 12vw;
+    margin-top: 10vw;
     margin-left: -3.5vw;
     margin-bottom: 5vw;
 }
@@ -179,51 +159,110 @@ h6 {
     margin-bottom: 5vw;
 }
 
-.bildlinksone {
-    width: 50.486vw;
-    height: 67.778vw;
-    align-self: flex-end;
+.image-container-links {
+position: relative;
+margin-top: 10vw;
+}
+
+.image-container-links img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease;
+
+    width: 27.778vw;
+    height: 42.014vw;
+    margin-left: 2.083vw;
 }
 
 .bildlinkstwo {
-    width: 27.778vw;
-    height: 42.014vw;
-    align-self: center;
-    margin-left: 2.083vw;
+    opacity: 1;
 }
 
-.bildrechtsone {
-    width: 27.778vw;
-    height: 41.667vw;
-    align-self: center;
-    margin-left: 0.694vw;
+.hoverimagelinks {
+    opacity: 0;
 }
+
+.image-container-links:hover .hoverimagelinks {
+    opacity: 1;
+}
+
+.image-container-links:hover .bildlinkstwo {
+    opacity: 0;
+}
+
+.bildlinksone {
+    width: 50.486vw;
+    height: 62.778vw;
+    align-self: flex-end;
+}
+
+.image-container-rechts {
+    position: relative;
+    margin-top: 10vw;
+    }
+    
+    .image-container-rechts img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 0.5s ease;
+    
+        width: 27.778vw;
+        height: 42.014vw;
+        margin-left: 0.694vw;
+    }
+    
+    .bildrechtsone {
+        opacity: 1;
+    }
+    
+    .hoverimagerechts {
+        opacity: 0;
+    }
+    
+    .image-container-rechts:hover .hoverimagerechts {
+        opacity: 1;
+    }
+    
+    .image-container-rechts:hover .bildrechtsone {
+        opacity: 0;
+    }
 
 .bildrechtstwo {
     width: 50.486vw;
-    height: 67.778vw;
-    align-self: center;
-    margin-left: 2.083vw;
+    height: 62.778vw;
+    margin-left: 30.6vw;
 }
 
 @media (max-width: 1000px) {
     
-    .bildlinkstwo {
+    .image-container-links {
         display: none;
     }
 
-    .bildrechtsone {
+    .image-container-rechts {
         display: none;
+    }
+
+    .luana {
+        margin-top: 20vw;
     }
 
     .bildlinksone {
         align-self: center;
-        margin-left: 2.083vw;
+        width: 80.972vw;
+        height: 110.556vw;
     }
 
     .bildrechtstwo {
-        align-self: center;
-        margin-left: 2.083vw;
+        width: 80.972vw;
+        height: 110.556vw;
+        margin-left: 4vw;
+    }
+
+    h3 {
+        margin-top: 7vw;
     }
 
     .geschichtetext {
@@ -231,7 +270,6 @@ h6 {
     }
 
 }
-
 
 /* logo ------------------------------------------------------------------------------------------ */
 
@@ -295,6 +333,18 @@ h6 {
 
 .button:hover a {
     color: white; 
+}
+
+.filmbutton {
+    display: flex;
+    justify-content: left;
+
+    width: 60vw;
+    height: 40vw;
+
+    margin-top: 10vw;
+    margin-left: 11vw;
+    align-self: center;
 }
 
 
