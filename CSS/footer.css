@@ -1,48 +1,38 @@
 footer {
-
-    border-top: 5px solid white;
+    
+    border-top: 0.5vw solid  #FFE76E;
     background-color: transparent;
     color: #fff;
-    padding: 10px;
+    padding: 0.694vw;
     bottom: 0;
     left: 0;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: "Paralucent", sans-serif;
-    grid-column: 1/span2;
-    grid-row:1000;
-}
-
-.left-content {
-    padding-left: 50px;
-}
-
-.right-content
- {
-    padding-right: 50px;
 }
 
 .left-content p,
 .right-content p,
-.impressum p,
-.awayste p,
+.impressum a,
+.awayste a,
 .facebook p,
 .instagram p {
     margin: 0;
-    font-size: 22px; 
+    font-size: 1.528vw; 
 }
 
 .left-content p,
 .right-content p{
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0.347vw;
+    margin-top: 0.347vw;
 }
 
-.impressum p,
-.awayste p {
-    margin-top: -8px;
+.impressum a,
+.awayste a {
+    margin-top: -0.556vw;
+    text-decoration: none;
+    color: white;
 }
 
 @media (min-width: 768px) {

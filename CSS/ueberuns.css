@@ -29,7 +29,6 @@ h2 {
     letter-spacing: 1.389vw;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-
     margin-left: 0.625vw;
 }
 
@@ -37,10 +36,8 @@ h1 {
     font-size: 24.306vw;
     line-height: 29.167vw;
     line-height: 17.361vw;
-
     margin-top: 3.750vw;
 }
-
 
 h3 {
     font-family: "paralucent";
@@ -77,15 +74,14 @@ h3 {
 }
 
 .philosophie {
-    margin-top: 10vw;
-    margin-bottom: 10vw;
+    margin-bottom: 5vw;
     margin-left: 1.528vw;
+    border-bottom: 0.5vw solid #FFE76E;
 }
 
 h4 {
     font-style: italic;
     letter-spacing: 1.111vw;
-
     margin-bottom: 3vw;
 }
 
@@ -94,15 +90,16 @@ h5 {
 }
 
 .kontakt {
-    font-style: italic;
-
-    margin-bottom: 3vw;
+    font-weight: 700;  
     margin-left: 1.528vw;
-    margin-top: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    border-bottom: 0.5vw solid #FFE76E;
 }
 
-h6 {
-    font-style: normal;
+.freuenuns {
+    font-weight: 500;
+    font-style: italic;
 }
 
 @media (max-width: 1000px) {
@@ -122,41 +119,37 @@ h6 {
 .vorschau {
     display: flex;
     justify-content: left;
-
     width: 60vw;
     height: 40vw;
 }
 
 .luana {
     display: flex;
-
     margin-top: 10vw;
     margin-left: -3.5vw;
     margin-bottom: 5vw;
+    border-bottom: 0.5vw solid #FFE76E;
 }
 
 .simon {
     display: flex;
-
-    margin-top: 10vw;
     margin-left: 1vw;
     margin-bottom: 5vw;
+    border-bottom: 0.5vw solid #FFE76E;
 }
 
 .hanna {
     display: flex;
-
-    margin-top: 10vw;
     margin-left: -3.5vw;
     margin-bottom: 5vw;
+    border-bottom: 0.5vw solid #FFE76E;
 }
 
 .sylvie {
     display: flex;
-
-    margin-top: 10vw;
     margin-left: 1vw;
     margin-bottom: 5vw;
+    border-bottom: 0.5vw solid #FFE76E;
 }
 
 .image-container-links {
@@ -169,7 +162,6 @@ margin-top: 10vw;
     top: 0;
     left: 0;
     transition: opacity 0.5s ease;
-
     width: 27.778vw;
     height: 42.014vw;
     margin-left: 2.083vw;
@@ -207,7 +199,6 @@ margin-top: 10vw;
         top: 0;
         left: 0;
         transition: opacity 0.5s ease;
-    
         width: 27.778vw;
         height: 42.014vw;
         margin-left: 0.694vw;
@@ -261,27 +252,19 @@ margin-top: 10vw;
         margin-left: 4vw;
     }
 
-    h3 {
-        margin-top: 7vw;
-    }
-
-    .geschichtetext {
-        margin-top: -7vw;
-    }
-
 }
 
 /* logo ------------------------------------------------------------------------------------------ */
 
 .logo {
     position: fixed;
-    right: 20px;
-    top: 16px;
+    right: 1.389vw;
+    top: 1.111vw;
 }
 
 .logobild {
-    height: 27px;
-    width: 98px;
+    height: 1.875vw;
+    width: 6.806vw;
 }
 
 /* navigation ------------------------------------------------------------------------------------------ */
@@ -297,13 +280,20 @@ margin-top: 10vw;
     right: 1.389vw;
     top: 50%;
     transform: translateY(-50%);
-
     align-self: center;
 }
 
 .burger li a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
+}
+
+#login a,
+#favoriten a,
+#angebot a,
+#kontakt a,
+#blog a {
+    text-decoration: none;
 }
 
 .button {
@@ -316,7 +306,6 @@ margin-top: 10vw;
     font-size: 1.389vw;
     width: 13.889vw;
     height: 4.167vw;
-
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
@@ -338,15 +327,12 @@ margin-top: 10vw;
 .filmbutton {
     display: flex;
     justify-content: left;
-
     width: 60vw;
     height: 40vw;
-
-    margin-top: 10vw;
-    margin-left: 11vw;
+    margin-top: 5vw;
+    margin-left: 1.528vw;
     align-self: center;
 }
-
 
 /* footer ------------------------------------------------------------------------------------------ */
 
@@ -355,7 +341,7 @@ footer {
     border-top: 0.5vw solid  #FFE76E;
     background-color: transparent;
     color: #fff;
-    padding: 10px;
+    padding: 0.694vw;
     bottom: 0;
     left: 0;
     display: flex;
@@ -364,63 +350,27 @@ footer {
     font-family: "Paralucent", sans-serif;
 }
 
-
 .left-content p,
 .right-content p,
-.impressum p,
-.awayste p,
+.impressum a,
+.awayste a,
 .facebook p,
 .instagram p {
     margin: 0;
-    font-size: 22px; 
+    font-size: 1.528vw; 
 }
 
 .left-content p,
 .right-content p{
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0.347vw;
+    margin-top: 0.347vw;
 }
 
-.impressum p,
-.awayste p {
-    margin-top: -8px;
-}
-
-@media (min-width: 768px) {
-
-    .left-content,
-    .right-content {
-        flex-direction: row;
-    }
-}
-
-.left-content {
-    padding-left: 50px;
-}
-
-.right-content {
-    padding-right: 50px;
-}
-
-.left-content p,
-.right-content p,
-.impressum p,
-.awayste p,
-.facebook p,
-.instagram p {
-    margin: 0;
-    font-size: 22px; 
-}
-
-.left-content p,
-.right-content p{
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.impressum p,
-.awayste p {
-    margin-top: -8px;
+.impressum a,
+.awayste a {
+    margin-top: -0.556vw;
+    text-decoration: none;
+    color: white;
 }
 
 @media (min-width: 768px) {

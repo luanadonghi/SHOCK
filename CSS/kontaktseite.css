@@ -51,8 +51,16 @@ body{
 }
 
 .burger li a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
+}
+
+#login a,
+#favoriten a,
+#angebot a,
+#uberuns a,
+#blog a {
+    text-decoration: none;
 }
 
 /* footer ------------------------------------------------------------------------------------------ */
