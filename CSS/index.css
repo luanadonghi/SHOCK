@@ -64,8 +64,9 @@ h3 {
     margin-top: 50px;
 }
 
-.schublade {
+/* .schublade {
     display: flex;
+    align-items: end    ;
 }
 
 .schubladeoffen {
@@ -74,21 +75,31 @@ h3 {
     align-self: flex-end;
     margin-left: -22.222vw;
     margin-top: 10.042vw;
-}
+} */
 
 /* Text 1 */
 
+.datenhome {
+        font-family: "paralucent";
+        color: white;
+        line-height: 48px;
+        margin-left: 1vw;
+        margin-right: 14vw;
+        margin-top: 90px;
+        border-right: 0.5vw solid #FFE76E;
+        padding-right: 1vw;
+        padding-top: 168px;
+        padding-bottom: 50px;
+    }
+
 .schublade {
     display: flex;
-    grid-column: 1/ span 2;
-    grid-row: 3/ span 1;
-    align-self: flex-end;
 }
 
 .bild1 {
     height: 70vw;
-    margin-right: 1vw;
     padding-left: 1vw;
+    border-left: #FFE76E solid 0.5vw;
 }
 
 .titel1 {
@@ -96,7 +107,14 @@ h3 {
 }
 
 .text1 {
-    margin-bottom: 0vw;
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-right: 1vw;
 }
 
 /* logo ------------------------------------------------------------------------------------------ */
