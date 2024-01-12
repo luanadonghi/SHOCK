@@ -80,33 +80,38 @@ h3 {
 /* Text 1 */
 
 .datenhome {
-        font-family: "paralucent";
-        color: white;
-        line-height: 48px;
-        margin-left: 1vw;
-        margin-right: 14vw;
-        margin-top: 90px;
-        border-right: 0.5vw solid #FFE76E;
-        padding-right: 1vw;
-        padding-top: 168px;
-        padding-bottom: 50px;
-    }
+    font-family: "paralucent";   
+    color: white;
+    line-height: 48px;
+    margin-left: 1vw;
+    margin-right: 14vw;
+    margin-top: 90px;
+    border-right: 0.5vw solid #FFE76E;
+    padding-right: 1vw;
+    padding-top: 168px;
+    padding-bottom: 50px;
+}
 
 .schublade {
     display: flex;
 }
 
-.bild1 {
+.blockeins {
+    display: flex;
+    align-items: end;
+}
+
+.bildeins {
     height: 70vw;
     padding-left: 1vw;
     border-left: #FFE76E solid 0.5vw;
 }
 
-.titel1 {
+.titeleins {
     margin-bottom: 2vw;
 }
 
-.text1 {
+.texteins {
     color: #FFF;
     font-family: Paralucent;
     font-size: 2.5vw;
@@ -115,6 +120,12 @@ h3 {
     line-height: normal;
     text-transform: uppercase;
     padding-right: 1vw;
+    margin-left: 1vw;
+}
+
+.bildzwei {
+    height: 109.653vw;
+    
 }
 
 /* logo ------------------------------------------------------------------------------------------ */
