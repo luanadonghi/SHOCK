@@ -5,10 +5,16 @@
     margin: 0;
 }
 
-body{
+body {
+
+    background-image: url(../Bilder/Angebotsseite/DSCF3971\ zugeschnitten\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
     background-color: #F2CC0C;
 }
-    /* width: 100%;
+
+/* width: 100%;
     background-image: url(hintergrundbild.jpg)
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +81,7 @@ h2 {
     font-family: "paralucent";
     color: white;
     line-height: 48px;
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
     margin-right: 14vw;
     margin-top: 90px;
     border-right: 0.5vw solid #FFE76E;
@@ -86,7 +92,7 @@ h2 {
 
 .datenangebot h2 {
     margin-top: 2em;
-    
+
     color: #FFF;
     font-family: Paralucent;
     font-size: 40px;
@@ -106,7 +112,7 @@ h2 {
     text-transform: uppercase;
 }
 
-.texteins{
+.texteins {
     color: #FFF;
     font-family: Paralucent;
     font-size: 2.5vw;
@@ -115,6 +121,7 @@ h2 {
     line-height: normal;
     text-transform: uppercase;
     padding-right: 1vw;
+    margin-left: 1vw;
 
 }
 
@@ -127,7 +134,13 @@ h2 {
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+    border-left: #FFE76E solid 0.5vw;
+    padding-top: 15vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    margin-left: 36.35vw;
 }
+
 .blockeins {
     display: flex;
     align-items: end;
@@ -140,21 +153,23 @@ h2 {
     border-left: #FFE76E solid 0.5vw;
 }
 
-.textzwei {
-    color: #FFF;
-    font-family: Paralucent;
-    font-size: 2.5vw;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
-    border-left: #FFE76E solid 0.5vw;
-    padding-top: 15vw;
-    padding-bottom: 1vw;
-    padding-left: 1vw;
-    margin-left: 35.35vw;
+
+.bieten {
+    padding-top: 1vw;
+    border-top: #FFE76E solid 0.5vw;
+    padding-right: 1vw;
+    width: 100%;
+}
+
+.white-circle{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white
 
 }
+/* writing-mode: vertical-lr; */
 
 
 /* logo ------------------------------------------------------------------------------------------ */
@@ -163,6 +178,7 @@ h2 {
     position: fixed;
     right: 20px;
     top: 16px;
+
 }
 
 .logobild {
@@ -185,16 +201,30 @@ h2 {
     transform: translateY(-50%);
 }
 
+
 .burger li a {
-    text-decoration: none;
     color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15vw;
+    text-underline-offset: 0.3vw;
+
 }
+
+#login a,
+#favoriten a,
+#uberuns a,
+#kontakt a,
+#blog a {
+    text-decoration: none;
+}
+
+
 
 /* footer ------------------------------------------------------------------------------------------ */
 
 footer {
-    
-    border-top: 0.5vw solid  #FFE76E;
+
+    border-top: 0.5vw solid #FFE76E;
     background-color: transparent;
     color: #fff;
     padding: 10px;
@@ -214,11 +244,11 @@ footer {
 .facebook p,
 .instagram p {
     margin: 0;
-    font-size: 22px; 
+    font-size: 22px;
 }
 
 .left-content p,
-.right-content p{
+.right-content p {
     margin-bottom: 5px;
     margin-top: 5px;
 }
@@ -252,11 +282,11 @@ footer {
 .facebook p,
 .instagram p {
     margin: 0;
-    font-size: 22px; 
+    font-size: 22px;
 }
 
 .left-content p,
-.right-content p{
+.right-content p {
     margin-bottom: 5px;
     margin-top: 5px;
 }
