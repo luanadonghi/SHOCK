@@ -1,114 +1,35 @@
-body {
+/* general ------------------------------------------------------------------------------------------ */
 
+* {
+    padding: 0;
+    margin: 0;
+}
 
-    background-image: url(../Bilder/Angebotsseite/DSCF3971\ zugeschnitten\ 2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center top;
-
-
+body{
     background-color: #F2CC0C;
+}
+    /* width: 100%;
+    background-image: url(hintergrundbild.jpg)
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll; 
+} */
 
-    display: grid;
-    grid-template-columns: 32.85% 50.69% 16.46%;
-    grid-template-rows: 37.5% 20% 54%
+/* impressum specifics ------------------------------------------------------------------------------------------ */
+
+.titel {
+    margin-left: 55px;
+    display: flex;
 }
 
-.logo {
-    margin-left:0 !important;
-}
 
-/* Title */
-
-h1 {
+/* h1 {
     margin: 0vw;
     font-family: "paralucent";
     color: white;
     text-align: left;
     line-height: 70%;
-
 }
-
-p {
-    font-family: paralucent;
-    color: white;
-    font-size: 3vw;
-}
-
-
-/* Menü */
-.Menulinie {
-    grid-column: 3/span 1;
-    grid-row-end: span 4;
-    border-left: #FFE76E solid 0.25vw;
-
-}
-.container {
-    display: flex;
-    align-items: top;
-    grid-column: 3/ span 1;
-    justify-content: space-around;
-}
-
-.logo {
-    position: fixed;
-    padding-top: 10px;
-    padding-left: 130px;
-}
-
-.logobild {
-    height: 27px;
-    width: 98px;
-}
-
-
-.burger {
-    position: fixed;
-    font-family: "paralucent";
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 45px;
-    list-style: none;
-    text-align: right;
-    padding-top: 315px;
-}
-
-
-#login a {
-    text-decoration: none;
-    color: white;
-}
-
-#favoriten a {
-    text-decoration: none;
-    color: white;
-}
-
-#uberuns a {
-    text-decoration: none;
-    color: white;
-}
-
-#blog a {
-    text-decoration: none;
-    color: white;
-}
-
-#angebot a {
-    text-decoration: underline;
-    text-decoration-thickness: 0.13vw;
-    text-decoration-skip-ink: none;
-    text-underline-offset: 0.3vw;
-    color: white
-}
-
-#kontakt a {
-    text-decoration: none;
-    color: white;
-}
-
-
-/* Titelblatt */
 
 .starttitel {
     font-size: 13vw;
@@ -118,29 +39,237 @@ p {
 
 .abfall-title {
     font-size: 17vw;
-    margin-left: 2vw;
+    margin-left: 2vw; */
+
+h1 {
+    font-family: "paralucent";
+    font-size: 350px;
+    color: white;
+    padding: top 50px;
+    padding-left: 7px;
+    font-family: Paralucent;
+    font-weight: 700;
+
+    margin: 0;
+    text-align: left;
+    padding: top 50px;
+    line-height: 80%;
 }
 
-/* Text 1 */
+h2 {
+    font-family: "paralucent";
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
 
-.textblockeins {
+    margin: 0;
+    text-align: left;
+    padding: top 50px;
+    line-height: 80%;
+}
+
+.datenangebot {
+    font-family: "paralucent";
+    color: white;
+    line-height: 48px;
+    margin-left: 1vw;
+    margin-right: 14vw;
+    margin-top: 90px;
+    border-right: 0.5vw solid #FFE76E;
+    padding-right: 1vw;
+    padding-top: 168px;
+    padding-bottom: 50px;
+}
+
+.datenangebot h2 {
+    margin-top: 2em;
+    
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text {
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.texteins{
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-right: 1vw;
+
+}
+
+.textzwei {
+
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.blockeins {
     display: flex;
-    grid-column: 1/ span 2;
-    grid-row: 3/ span 1;
-    align-self: flex-end;
+    align-items: end;
 }
+
 
 .bildeins {
     height: 70vw;
-    margin-right: 1vw;
     padding-left: 1vw;
-    border-left: #FFE76E solid 0.25vw;
+    border-left: #FFE76E solid 0.5vw;
 }
 
-.texteinseins{
-    margin-bottom: 2vw;
+.textzwei {
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    border-left: #FFE76E solid 0.5vw;
+    padding-top: 15vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    margin-left: 35.35vw;
+
 }
 
-.texteinszwei{
-    margin-bottom: 0vw;
+
+/* logo ------------------------------------------------------------------------------------------ */
+
+.logo {
+    position: fixed;
+    right: 20px;
+    top: 16px;
+}
+
+.logobild {
+    height: 27px;
+    width: 98px;
+}
+
+/* navigation ------------------------------------------------------------------------------------------ */
+
+.burger {
+    position: fixed;
+    font-family: "paralucent";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45px;
+    list-style: none;
+    text-align: right;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer ------------------------------------------------------------------------------------------ */
+
+footer {
+    
+    border-top: 0.5vw solid  #FFE76E;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Paralucent", sans-serif;
+}
+
+
+.left-content p,
+.right-content p,
+.impressum p,
+.awayste p,
+.facebook p,
+.instagram p {
+    margin: 0;
+    font-size: 22px; 
+}
+
+.left-content p,
+.right-content p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.impressum p,
+.awayste p {
+    margin-top: -8px;
+}
+
+@media (min-width: 768px) {
+
+    .left-content,
+    .right-content {
+        flex-direction: row;
+    }
+}
+
+
+.left-content {
+    padding-left: 50px;
+}
+
+.right-content {
+    padding-right: 50px;
+}
+
+.left-content p,
+.right-content p,
+.impressum p,
+.awayste p,
+.facebook p,
+.instagram p {
+    margin: 0;
+    font-size: 22px; 
+}
+
+.left-content p,
+.right-content p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.impressum p,
+.awayste p {
+    margin-top: -8px;
+}
+
+@media (min-width: 768px) {
+
+    .left-content,
+    .right-content {
+        flex-direction: row;
+    }
 }
