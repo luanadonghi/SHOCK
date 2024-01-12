@@ -26,13 +26,13 @@ body{
 
 .logo {
     position: fixed;
-    right: 20px;
-    top: 16px;
+    right: 1.389vw;
+    top: 1.111vw;
 }
 
 .logobild {
-    height: 27px;
-    width: 98px;
+    height: 1.875vw;
+    width: 6.806vw;
 }
 
 /* navigation ------------------------------------------------------------------------------------------ */
@@ -40,12 +40,12 @@ body{
 .burger {
     position: fixed;
     font-family: "paralucent";
-    font-size: 40px;
+    font-size: 2.778vw;
     font-weight: 500;
-    line-height: 45px;
+    line-height: 3.125vw;
     list-style: none;
     text-align: right;
-    right: 20px;
+    right: 1.389vw;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -59,10 +59,10 @@ body{
 
 footer {
     
-    border-top: 5px solid white;
+    border-top: 0.347vw    solid white;
     background-color: transparent;
     color: #fff;
-    padding: 10px;
+    padding: 0.694vw;
     bottom: 0;
     left: 0;
     display: flex;
@@ -79,18 +79,18 @@ footer {
 .facebook p,
 .instagram p {
     margin: 0;
-    font-size: 22px; 
+    font-size: 1.528vw; 
 }
 
 .left-content p,
 .right-content p{
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0.347vw;
+    margin-top: 0.347vw; 
 }
 
 .impressum p,
 .awayste p {
-    margin-top: -8px;
+    margin-top: -0.556vw;
 }
 
 @media (min-width: 768px) {
@@ -103,11 +103,11 @@ footer {
 
 
 .left-content {
-    padding-left: 50px;
+    padding-left: 3.472vw;
 }
 
 .right-content {
-    padding-right: 50px;
+    padding-right: 3.472vw;
 }
 
 .left-content p,
@@ -117,18 +117,18 @@ footer {
 .facebook p,
 .instagram p {
     margin: 0;
-    font-size: 22px; 
+    font-size: 1.528vw;
 }
 
 .left-content p,
 .right-content p{
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0.347vw;
+    margin-top: 0.347vw;
 }
 
 .impressum p,
 .awayste p {
-    margin-top: -8px;
+    margin-top: -0.556vw;
 }
 
 @media (min-width: 768px) {
@@ -144,32 +144,32 @@ footer {
 
 h1 {
     font-family: "paralucent";
-    font-size: 200px;
+    font-size: 13.889vw;
     color: white;
-    padding: top 50px;
-    padding-left: 7px;
+    padding: top 3.472vw;
+    padding-left: 0.486vw; 
     font-family: Paralucent;
     font-weight: 700;
 
     margin: 0;
     text-align: left;
-    padding: top 50px;
+    padding: top 3.472vw;
     line-height: 80%;
 }
 
 .bigh1 {
     font-family: "paralucent";
-    font-size: 300px;
+    font-size: 20.833vw;
     color: white;
     text-align: left;
-    padding: top 50px;
-    padding: left 7px; 
+    padding: top 3.472vw;
+    padding: left 0.486vw;
     font-family: Paralucent;
     font-weight: 700;
 
     margin: 0;
     text-align: left;
-    padding: top 50px;
+    padding: top 3.472vw;
     line-height: 80%;
     
 }
@@ -179,9 +179,9 @@ h2{
     color: white;
     text-align: left; 
     font-family: Paralucent;
-    font-size: 50px;
+    font-size: 3.472vw;
     font-weight: 500;
-    line-height: 60px;
+    line-height: 4.167vw;
     letter-spacing: 0em;
     text-align: left;
     
@@ -192,7 +192,7 @@ h2{
 .map {
     /* grid-column: 1/ span 2;
     grid-row: 3/ span 1; */
-    padding-left: 17px
+    padding-left: 1.181vw;
 
 
     /* display: flex; */
@@ -203,10 +203,10 @@ h2{
 } */
     
 .Karte {
-    width: 805px;
-    height: 338px;
-    padding-left: 376px; 
-    padding-right: 260px;
+    width: 55.903vw;
+    height: 23.472vw;
+    padding-left: 26.111vw; 
+    padding-right: 18.056vw;
 }
 
 
@@ -216,57 +216,56 @@ h2{
     grid-row: 2/ span 1;
     font-family: "paralucent";
     font-style: normal;
-    font-size: 30px;
+    font-size: 2.083vw;
     font-weight: 500;
     color: white;
-    line-height: 48px;
+    line-height: 3.333vw;
 
-    margin-left: 22px;
-    margin-top: 90px;
+    margin-left: 1.528vw;
+    margin-top: 6.250vw;
 
 }
 
 form {
-    width: 700px;
+    width: 48.611vw;
 }
 
 input {
     background: transparent;
     border: none;
-    border-bottom: 2px solid white;
-    margin-bottom: 10px;
-    padding: 10px;
+    border-bottom: 0.139vw    solid white;
+    margin-bottom: 0.694vw;
+    padding: 0.694vw;
     width: 100%;
     color: white;
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 2.083vw;
+    margin-top: 1.389vw;
 }
 
 input::placeholder {
     color: white;
-    font-size: 30px;
+    font-size: 2.083vw;
     margin: 0;
 }
 
 input:focus-visible {
     outline: none;
-    border-bottom: 3px solid white;
+    border-bottom: 0.208vw    solid white;
 }
 
 .btn {
     display: block;
-    padding: 10px 30px;
+    padding: 0.694vw 2.083vw;
     background: white;
     color: #743836;
     border: none;
-    margin-top: 20px;
+    margin-top: 1.389vw;
     float: right;
-    border-radius: 29px;
+    border-radius: 2.014vw;
     text-transform: uppercase;
-    font-size: 35px;
-    width: 290px;
-    height: 74px; 
-
+    font-size: 2.431vw;
+    width: 20.139vw;
+    height: 5.139vw; 
 }
 
 .btn:hover {
