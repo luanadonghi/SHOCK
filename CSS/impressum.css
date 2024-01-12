@@ -16,50 +16,50 @@ body{
 /* impressum specifics ------------------------------------------------------------------------------------------ */
 
 .titel {
-    margin-left: 55px;
+    margin-left: 3.819vw;
     display: flex;
 }
 
 h1 {
     font-family: "paralucent";
-    font-size: 350px;
+    font-size: 24.306vw;
     color: white;
-    padding: top 50px;
-    padding-left: 7px;
+    padding: top 3.472vw;
+    padding-left: 0.486vw;    ;
     font-family: Paralucent;
     font-weight: 700;
 
     margin: 0;
     text-align: left;
-    padding: top 50px;
+    padding: top 3.472vw;
     line-height: 80%;
 }
 
 h2 {
     font-family: "paralucent";
-    font-size: 40px;
+    font-size: 2.778vw;
     color: white;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 3.333vw;    ;
     letter-spacing: 0em;
     text-align: left;
 
     margin: 0;
     text-align: left;
-    padding: top 50px;
+    padding: top 3.472vw;    ;
     line-height: 80%;
 }
 
 .datenimpressum {
     font-family: "paralucent";
     color: white;
-    line-height: 48px;
-    margin-left: 55px;
-    margin-top: 90px;
-    border-left: 5px solid white;
-    padding-left: 57px;
-    padding-top: 168px;
-    padding-bottom: 50px;
+    line-height: 3.333vw;
+    margin-left: 3.819vw;   
+    margin-top: 6.250vw;   
+    border-left: 0.347vw    solid white;
+    padding-left: 3.958vw;
+    padding-top: 11.667vw;    
+    padding-bottom: 3.472vw;    
 }
 
 .datenimpressum h2 {
@@ -67,7 +67,7 @@ h2 {
     
     color: #FFF;
     font-family: Paralucent;
-    font-size: 40px;
+    font-size: 2.778vw;    ;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -77,7 +77,7 @@ h2 {
 .text {
     color: #FFF;
     font-family: Paralucent;
-    font-size: 30px;
+    font-size: 2.083vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -89,13 +89,13 @@ h2 {
 
 .logo {
     position: fixed;
-    right: 20px;
-    top: 16px;
+    right:1.389vw; 
+    top: 1.111vw;
 }
 
 .logobild {
-    height: 27px;
-    width: 98px;
+    height: 1.875vw;
+    width: 6.806vw;
 }
 
 /* navigation ------------------------------------------------------------------------------------------ */
@@ -103,14 +103,16 @@ h2 {
 .burger {
     position: fixed;
     font-family: "paralucent";
-    font-size: 40px;
+    font-size: 2.778vw;
     font-weight: 500;
-    line-height: 45px;
+    line-height: 3.125vw;
     list-style: none;
     text-align: right;
-    right: 20px;
+    right: 1.389vw;
     top: 50%;
     transform: translateY(-50%);
+
+    align-self: center;
 }
 
 .burger li a {
@@ -118,14 +120,16 @@ h2 {
     color: white;
 }
 
+
+
 /* footer ------------------------------------------------------------------------------------------ */
 
 footer {
     
-    border-top: 5px solid white;
+    border-top: 0.347vw solid white;
     background-color: transparent;
     color: #fff;
-    padding: 10px;
+    padding: 0.694vw;
     bottom: 0;
     left: 0;
     display: flex;
@@ -142,18 +146,18 @@ footer {
 .facebook p,
 .instagram p {
     margin: 0;
-    font-size: 22px; 
+    font-size: 1.528vw; 
 }
 
 .left-content p,
 .right-content p{
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0.347vw;    
+    margin-top: 0.347vw;
 }
 
 .impressum p,
 .awayste p {
-    margin-top: -8px;
+    margin-top: -0.556vw;
 }
 
 @media (min-width: 768px) {
@@ -166,11 +170,11 @@ footer {
 
 
 .left-content {
-    padding-left: 50px;
+    padding-left: 3.472vw;
 }
 
 .right-content {
-    padding-right: 50px;
+    padding-right: 3.472vw;
 }
 
 .left-content p,
@@ -180,18 +184,18 @@ footer {
 .facebook p,
 .instagram p {
     margin: 0;
-    font-size: 22px; 
+    font-size: 1.528vw; 
 }
 
 .left-content p,
 .right-content p{
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0.347vw;
+    margin-top: 0.347vw;
 }
 
 .impressum p,
 .awayste p {
-    margin-top: -8px;
+    margin-top: -0.556vw;
 }
 
 @media (min-width: 768px) {
