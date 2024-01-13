@@ -237,14 +237,14 @@ button [type=submit].done {
 
 .logo {
     position: fixed;
-    right: 20px;
-    top: 16px;
+    right: 1.389vw;
+    top: 1.111vw;
 
 }
 
 .logobild {
-    height: 27px;
-    width: 98px;
+    height: 1.875vw;
+    width: 6.806vw;
 }
 
 /* navigation ------------------------------------------------------------------------------------------ */
@@ -252,22 +252,23 @@ button [type=submit].done {
 .burger {
     position: fixed;
     font-family: "paralucent";
-    font-size: 40px;
+    font-size: 2.3vw;
     font-weight: 500;
-    line-height: 45px;
+    line-height: 2.5vw;
     list-style: none;
     text-align: right;
-    right: 20px;
+    right: 1.389vw;
     top: 50%;
     transform: translateY(-50%);
+    /* align-self: center; */
 }
 
 
 .burger li a {
     color: white;
     text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 4px;
+    text-decoration-thickness: 0.2vw;
+    text-underline-offset: 0.2vw;
 
 }
 
@@ -457,6 +458,29 @@ footer {
     .abfall {
         margin-left: 2.3vw;
         font-size: 13.3vw;
+    }
+
+    .burger {
+        position: fixed;
+        font-family: "paralucent";
+        font-size: 48px ;
+        font-weight: 500;
+        line-height: 45px;
+        list-style: none;
+        text-align: right;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        /* align-self: center; */
+    }
+    
+    
+    .burger li a {
+        color: white;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 4px;
+    
     }
 
     ul.burger {
