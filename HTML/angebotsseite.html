@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>awayste - Angebotsseite</title>
+    <link rel="stylesheet" href="CSS/button.css">
     <link rel="stylesheet" href="/CSS/angebotsseite.css">
     <link rel="stylesheet" href="https://use.typekit.net/wwd5yxa.css">
 </head>
@@ -19,6 +20,8 @@
                 <img class="logobild" src="/Bilder/Logo.png" alt="Awayste Logo">
             </a>
         </div>
+
+        <button id="menu">&#x2630;</button>
 
         <ul class="burger">
             <li id="login">
@@ -91,15 +94,6 @@
 
 
 
-        <!-- <h2>ADRESSE</h2>
-
-        <div class="text">
-
-            <p> Awayste GmbH <br>
-                Holzikofenweg 8 <br>
-                30XX Bern, Schweiz</p>
-        </div> -->
-
         <div class="textzwei">
             <p>
                 UND SO FUNKTIONIERT’S
@@ -107,6 +101,15 @@
                 Gib Deine Postleitzahl in das Suchfeld ein und entdecke eine Vielzahl an Unternehmen und Projekten in
                 Deiner Nähe, welche eine Zero- Food-Waste-Philosophie vertreten.
             </p>
+        </div>
+
+        <div>
+            <section class="resort">
+                <form action="#">
+                    <input type="search" placeholder="Wo befindest Du dich? Gib hier deine PLZ ein."/>
+                    <!-- <button type="submit">Suche</button> -->
+                </form>
+            </section>
         </div>
 
         <div>
@@ -169,6 +172,16 @@
         </div>
 
     </footer>
+
+    <script>
+        function toggleNavIn() {
+            var menu = document.getElementById('menu');
+            menu.classList.toggle('navIn');
+        }
+
+        // Füge den Klick-Event-Listener zum Element mit der ID "menu" hinzu
+        document.getElementById('menu').addEventListener('click', toggleNavIn);
+    </script>
 
 </body>
 
