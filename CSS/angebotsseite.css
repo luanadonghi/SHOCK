@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 
-html {
+/* html {
     font-size: 1.5vw;
-}
+} */
 
 body {
 
@@ -166,6 +166,8 @@ h2 {
     width: 100%;
 }
 
+/*suchleiste ------------------------------------------------------------------------------------------ */
+
 section {
     padding-top: 2vw;
     padding-bottom: 5vw;
@@ -277,16 +279,19 @@ button [type=submit].done {
   box-sizing: border-box;
 } */
 
-html {
+/* html {
   font-size: 10px;
-}
+} */
+
+/* autoscroller ------------------------------------------------------------------------------------------ */
 
 .partnerbetriebe {
     display: flex;
 
     align-items: center;
     height: 100%;
-    width: 100% overflow: hidden;
+    width: 100% 
+    /* overfkow: hidden; */
 }
 
 .scroll-parent {
@@ -349,7 +354,7 @@ footer {
     border-top: 0.5vw solid #FFE76E;
     background-color: transparent;
     color: #fff;
-    padding: 10px;
+    padding: 0.694vw;
     bottom: 0;
     left: 0;
     display: flex;
@@ -358,7 +363,7 @@ footer {
     font-family: "Paralucent", sans-serif;
 }
 
-
+/* 
 .left-content p,
 .right-content p,
 .impressum p,
@@ -366,19 +371,25 @@ footer {
 .facebook p,
 .instagram p {
     margin: 0;
-    font-size: 22px;
-}
+    font-size: 1.528vw;
+} */
+
 
 .left-content p,
-.right-content p {
-    margin-bottom: 5px;
-    margin-top: 5px;
+.right-content p{
+    margin-bottom: 0.347vw;
+    margin-top: 0.347vw;
 }
 
-.impressum p,
-.awayste p {
-    margin-top: -8px;
+.impressum a,
+.awayste a {
+    font-size: 22px;
+    /* margin-top: -0.556vw; */
+    text-decoration: none;
+    color: white;
 }
+
+/* responsive ------------------------------------------------------------------------------------------ */
 
 @media (min-width: 768px) {
 
@@ -417,10 +428,6 @@ footer {
     margin-top: 5px;
 }
 
-.impressum p,
-.awayste p {
-    margin-top: -8px;
-}
 
 @media (min-width: 768px) {
 
@@ -456,6 +463,8 @@ footer {
             width: 100%;
             text-align: center;
         }
+
+
 
         .logo {
             left: 1rem;
