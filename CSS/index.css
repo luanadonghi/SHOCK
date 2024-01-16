@@ -27,11 +27,13 @@ body{
     width: 1342px;
     margin-left: 0.625vw;;
 }
+
 .nullen{
     background-size:cover;
     background-position:center;
     background-image:url(../Bilder/Homepage/DSCF3780\ bearbeitet.jpg);
 }
+
 h1 {
     color: #FFF;
     text-align: left;
@@ -42,7 +44,7 @@ h1 {
     line-height: 150px;
     align-self: flex-start;
     margin-left: 0.625vw;
-    margin-top: 1219px;
+    margin-top: 5rem;
     color: white;
 }
 
@@ -91,20 +93,22 @@ h3 {
     line-height: 48px;
     margin-left: 1vw;
     margin-right: 14vw;
-    margin-top: 90px;
+    /* margin-top: 90px; */
     border-right: 0.5vw solid #FFE76E;
-    padding-right: 1vw;
-    padding-top: 168px;
-    padding-bottom: 50px;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .schublade {
     display: flex;
+    flex-direction: column;
 }
 
 .blockeins {
     display: flex;
     align-items: end;
+
 }
 
 .bildeins {
@@ -126,13 +130,70 @@ h3 {
     line-height: normal;
     text-transform: uppercase;
     padding-right: 1vw;
-    margin-left: 1vw;
 }
 
 .bildzwei {
     height: 109.653vw;
-    
+    padding-top: 2rem;
 }
+
+.unverpackt {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+}
+
+.blockdrei {
+    display: flex;
+    align-items: end;
+    padding-top: 4rem;
+}
+
+.bilddrei {
+    padding-left: 1rem;
+    border-left: #FFE76E solid 0.5vw;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto
+}
+
+.textdrei {
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.kompost {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.blockvier {
+    display: flex;
+    align-items: end;
+    padding-top: 2rem;
+}
+
+.bildvier {
+    height: 40rem;
+}
+
+.textvier {
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
 
 /* logo ------------------------------------------------------------------------------------------ */
 
@@ -171,7 +232,7 @@ h3 {
 
 footer {
     
-    border-top: 5px solid white;
+    border-top: 0.5vw solid #FFE76E;
     background-color: transparent;
     color: #fff;
     padding: 10px;
@@ -306,8 +367,34 @@ h3 {
 #menu.navIn + .burger {
     display: block;
 }
+
 .nullen {
     height: 100vh;
+}
+
+.blockdrei {
+    flex-direction: column;
+    gap: .5rem;
+    padding-top: 9rem;
+}
+
+.bilddrei {
+    padding-left: 0;
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+.blockvier {
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.bildvier {
+    padding-left: 0;
+    border: none;
+    width: 100%;
+    height: auto;
 }
 
 footer {
