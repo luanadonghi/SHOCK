@@ -146,6 +146,52 @@ h2 {
     width: 100%;
 }
 
+
+.blockdrei {
+    display: flex;
+    align-items: end;
+    padding-right: 1vw;
+}
+
+
+.bilddrei {
+    height: 70vw;
+    padding-left: 1vw;
+    border-left: #FFE76E solid 0.5vw;
+    padding-top: 10vw;
+}
+
+.textdrei {
+    color: #FFF;
+    font-family: Paralucent;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 1vw;
+    margin-left: 1vw;
+
+}
+
+.button {
+    display: block;
+    padding: 0.694vw 2.083vw;
+    background: white;
+    color: #F2CC0C;
+    border: none;
+    border-radius: 1.042vw;
+    font-size: 1.389vw;
+    width: 13.889vw;
+    height: 4.167vw;
+    margin-top: 2vw;
+}
+
+.button:hover {
+    background: #FFE76E;
+    color: white;
+}
+
+
 /*suchleiste ------------------------------------------------------------------------------------------ */
 
 .starte {
@@ -155,12 +201,14 @@ h2 {
     padding-bottom: 2vw;
 
 }
+
 .jetzt {
     font-family: paralucent bold;
     font-size: 5vw;
     margin-left: 1vw;
     padding-bottom: 4vw;
 }
+
 .suchbar {
     padding-top: 6vw;
     padding-bottom: 1vw;
@@ -238,6 +286,7 @@ input[type="search"]::placeholder {
 .filter {
     display: flex;
     margin-bottom: 1vw;
+    border-bottom: #FFE76E solid 0.5vw;
 
 }
 
@@ -371,6 +420,18 @@ section {
 
 
 /* autoscroller ------------------------------------------------------------------------------------------ */
+h4 {
+    font-family: paralucent, bold;
+    font-size: 2vw;
+    color: white;
+    line-height: 2.5vw;
+    text-align: end;
+    margin-top: 5vw;
+    margin-right: 1vw;
+
+}
+
+
 
 .partnerbetriebe {
     display: flex;
@@ -427,6 +488,125 @@ section {
         left: 0%;
     }
 }
+
+
+/* bieten ------------------------------------------------------------------------------------------ */
+
+
+.bietenkonstellation {
+    background-image: url(../Bilder/Angebotsseite/bieten.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 1vw;
+}
+
+.kreis {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 33vw;
+    height: 33vw;
+    margin-bottom: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: paralucent;
+    font-size: 6vw;
+    margin: auto;
+    text-align: center;
+    line-height: 4.5vw;
+
+
+}
+
+.allekreise {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1vw;
+    margin-top: 1vw;
+
+}
+
+.reiheeins {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.reihezwei {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+h3 {
+    font-family: paralucent;
+    font-size: 10.2vw;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-bottom: 2vw;
+    margin-right: 9vw;
+}
+
+
+#kreiseins:hover::after {
+    content: "Über unsere Plattform profitierst Du von einer Vielzahl an Rabatten. So wird Zero Food Waste nicht nur einfacher, sondern auch günstger.";
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+    position: absolute;
+    top: 59%;
+
+}
+
+#kreiszwei:hover::after {
+    content: "Speichere Deine Lieblingsunternehmen und Projekte. Dadurch findest Du sie schneller und wirst sofort über spannende Neuigkeiten informiert.";
+    font-size: 1.5vw;
+    white-space: pre-line;
+    line-height: 1.5vw;
+    position: absolute;
+    top: 65%;
+
+}
+
+#kreisdrei:hover::after {
+    content: "Uns ist Dein Feedback wichtig. Teile uns dies über die Rezensionsfunktion mit.";
+    font-size: 1.5vw;
+    white-space: pre-line;
+    line-height: 1.5vw;
+    position: absolute;
+    top: 59%;
+
+}
+
+#kreisvier:hover::after {
+    content: "In unserem Blog veröffentlichen wir spannende Beiträge über Food Waste, Nachhaltigkeit, Ernährung und stellen neue Unternehmen wie auch Projekte vor.";
+    font-size: 1.5vw;
+    white-space: pre-line;
+    line-height: 1.5vw;
+    position: absolute;
+    top: 59%;
+
+}
+
+#kreisfünf:hover::after {
+    content: "Mit den Geschäfts- und Projektporträts findest Du alle relevanten Informationen auf einen Blick.";
+    font-size: 1.5vw;
+    white-space: pre-line;
+    line-height: 1.5vw;
+    position: absolute;
+    top: 59%;
+
+}
+
+#kreissechs:hover::after {
+    content: "Wir sind ein junges, dynamisches Team, dass sich leidenschaftlich mit dem Thema Food Waste auseinandersetzt. Uns ist der Kampf gegen die Lebensmittel-verschwendung genauso wichtig wie Dir.";
+    font-size: 1.5vw;
+    white-space: pre-line;
+    line-height: 1.5vw;
+    position: absolute;
+    top: 80%;
+
+}
+
+
 
 
 
