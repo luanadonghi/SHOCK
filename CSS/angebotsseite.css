@@ -148,29 +148,45 @@ h2 {
 
 /*suchleiste ------------------------------------------------------------------------------------------ */
 
+.starte {
+    font-family: paralucent bold;
+    font-size: 2.5vw;
+    margin-left: 1vw;
+    padding-bottom: 2vw;
 
-section {
-    padding-top: 2vw;
-    padding-bottom: 5vw;
+}
+.jetzt {
+    font-family: paralucent bold;
+    font-size: 5vw;
+    margin-left: 1vw;
+    padding-bottom: 4vw;
+}
+.suchbar {
+    padding-top: 6vw;
+    padding-bottom: 1vw;
     border-top: #FFE76E solid 0.5vw;
-    padding-right: 1vw;
+    padding-right: 2vw;
 
 }
 
 .submitt {
     color: white;
-    font-size: 3vw;
+    font-size: 2vw;
     background-color: #F2CC0C;
     border: none;
     font-family: paralucent;
-    margin-left: 68vw;
-    margin-top: 0.5vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    border-radius: 1vw;
+    margin-left: 62.5vw;
+    margin-top: 0.75vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-radius: 1.5vw;
+    height: 5vw;
+    cursor: pointer;
+}
 
-
-
+.submitt:hover {
+    background-color: #FFE76E;
+    color: white;
 }
 
 form {
@@ -184,11 +200,10 @@ form {
 }
 
 input[type=search] {
-    font-size: 3vw;
-    /* padding: 5px 10px; */
-    /* border-radius: 30px; */
+    font-size: 2.5vw;
     font-family: paralucent;
     color: #F2CC0C;
+    margin-left: 1.5vw;
 
 }
 
@@ -202,17 +217,100 @@ form [type=search] {
     border: none;
     width: 60vw;
     font-weight: lighter;
-    ;
-    /* font-size: 10vw; */
     transition: 0.5s all ease-in-out;
     cursor: pointer;
 }
 
 .suchicon {
-    margin-top: 1.25vw;
-    margin-left: 1vw;
-    height: 4vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    height: 3vw;
 }
+
+input[type="search"]::placeholder {
+    color: #F2CC0C
+}
+
+
+/* filter ------------------------------------------------------------------------------------------ */
+
+
+.filter {
+    display: flex;
+    margin-bottom: 1vw;
+
+}
+
+section {
+    padding-bottom: 8vw;
+}
+
+
+#geschaeft {
+    background: none;
+    color: white;
+    border: white solid 0.3vw;
+    border-radius: 1.5vw;
+    font-size: 1.6vw;
+    width: 12vw;
+    height: 4.167vw;
+    cursor: pointer;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#geschaeft:hover {
+    background: white;
+    color: #F2CC0C;
+}
+
+
+
+
+#maerkte {
+    background: none;
+    color: white;
+    border: white solid 0.3vw;
+    border-radius: 1.5vw;
+    font-size: 1.6vw;
+    width: 12vw;
+    height: 4.167vw;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+#maerkte:hover {
+    background: white;
+    color: #F2CC0C;
+}
+
+
+#sonstiges {
+    background: none;
+    color: white;
+    border: white solid 0.3vw;
+    border-radius: 1.5vw;
+    font-size: 1.6vw;
+    width: 12vw;
+    height: 4.167vw;
+    cursor: pointer;
+}
+
+#sonstiges:hover {
+    background: white;
+    color: #F2CC0C;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -272,20 +370,6 @@ form [type=search] {
 
 
 
-/* *,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
-  box-sizing: border-box;
-} */
-
-/* html {
-  font-size: 10px;
-} */
-
 /* autoscroller ------------------------------------------------------------------------------------------ */
 
 .partnerbetriebe {
@@ -294,14 +378,12 @@ form [type=search] {
     align-items: center;
     height: 100%;
     width: 100%
-        /* overfkow: hidden; */
 }
 
 .scroll-parent {
     position: relative;
     width: 100vw;
-    height: 20rem;
-    padding: 2rem 0;
+    height: 20vw;
     overflow-x: hidden;
 }
 
@@ -309,11 +391,9 @@ form [type=search] {
     width: inherit;
     height: inherit;
     position: absolute;
-    left: 0%;
-    top: 0%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    padding-left: 3vw;
 }
 
 .scroll-element img {
@@ -366,17 +446,6 @@ footer {
     font-family: "Paralucent", sans-serif;
 }
 
-/* 
-.left-content p,
-.right-content p,
-.impressum p,
-.awayste p,
-.facebook p,
-.instagram p {
-    margin: 0;
-    font-size: 1.528vw;
-} */
-
 
 .left-content p,
 .right-content p {
@@ -387,7 +456,6 @@ footer {
 .impressum a,
 .awayste a {
     font-size: 22px;
-    /* margin-top: -0.556vw; */
     text-decoration: none;
     color: white;
 }
@@ -461,7 +529,6 @@ footer {
         right: 20px;
         top: 50%;
         transform: translateY(-50%);
-        /* align-self: center; */
     }
 
 
@@ -487,6 +554,8 @@ footer {
     #menu.navIn+.burger {
         display: block;
     }
+
+
 
     footer {
         display: flex;
