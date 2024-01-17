@@ -22,6 +22,8 @@
             </a>
         </div>
 
+        <button id="menu">&#x2630;</button>
+
         <ul class="burger">
             <li id="login">
                 <a href="#">LOGIN</a>
@@ -119,5 +121,15 @@
     </div>
 
 </footer>
+
+<script>
+    function toggleNavIn() {
+        var menu = document.getElementById('menu');
+        menu.classList.toggle('navIn');
+    }
+
+    // Füge den Klick-Event-Listener zum Element mit der ID "menu" hinzu
+    document.getElementById('menu').addEventListener('click', toggleNavIn);
+</script>
 
 </html>
