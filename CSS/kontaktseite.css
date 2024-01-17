@@ -96,10 +96,7 @@ footer {
     margin-top: 0.347vw; 
 }
 
-/* .impressum p,
-.awayste p {
-    margin-top: -0.556vw;
-} */
+
 
 .impressum a,
 .awayste a  {
@@ -287,7 +284,6 @@ input:focus-visible {
 .btn:hover {
     background: lightgray;
 }
-
 
     
 
