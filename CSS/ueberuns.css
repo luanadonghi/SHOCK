@@ -326,20 +326,14 @@ margin-top: 10vw;
     height: 4.167vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
+    text-decoration: none;
+    text-align: center;
+    font-style: normal;
 }
 
 .button:hover {
     background: #FFE76E;
     color: white;
-}
-
-.button a {
-    color: #F2CC0C;
-    text-decoration: none;
-}
-
-.button:hover a {
-    color: white; 
 }
 
 /* footer ------------------------------------------------------------------------------------------ */
