@@ -33,7 +33,7 @@ Auf dem Weg dieses Projektes stiessen wir auf viele Probleme. In solchen Fällen
 
 #### Quellen
 
-Dieser Abschnitt listet die Hauptressourcen auf, die während des Projekts genutzt wurden.
+Dieser Abschnitt listet die Hauptressourcen auf, die während des Projekts genutzt wurden. <br>
 -Figma <br>
 -W3Schools <br>
 -ChatGPT <br>
