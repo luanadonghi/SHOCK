@@ -102,7 +102,7 @@ h3 {
 .texteins {
     color: #FFF;
     font-family: Paralucent;
-    font-size: 1rem;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -131,14 +131,14 @@ h3 {
     padding-left: 1rem;
     border-left: #FFE76E solid 0.5vw;
     object-fit: cover;
-    max-width: 100.8%;
+    max-width: 92.7%;
     height: auto
 }
 
 .textdrei {
     color: #FFF;
     font-family: Paralucent;
-    font-size: 1rem;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -164,7 +164,7 @@ h3 {
 .textvier {
     color: #FFF;
     font-family: Paralucent;
-    font-size: 1rem;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
