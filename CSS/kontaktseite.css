@@ -324,6 +324,11 @@ input:focus-visible {
     background: lightgray;
 }
 
+@media (min-width: 768px) {
+    #menu {
+        display:none;
+    }
+}
 
     
 
