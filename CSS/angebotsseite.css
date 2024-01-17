@@ -506,7 +506,7 @@ h4 {
     width: 33vw;
     height: 33vw;
     margin-bottom: 1.5vw;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     color: white;
