@@ -34,14 +34,14 @@ Auf dem Weg dieses Projektes stiessen wir auf viele Probleme. In solchen Fällen
 #### Quellen
 
 Dieser Abschnitt listet die Hauptressourcen auf, die während des Projekts genutzt wurden.
-Figma
-W3Schools
-ChatGPT
-blackbox.ai
-codepen.io
-YouTube
-Google
-Learning by doing
+-Figma <br>
+-W3Schools <br>
+-ChatGPT <br>
+-blackbox.ai <br>
+-codepen.io <br>
+-YouTube <br>
+-Google <br>
+-Learning by doing <br>
 
 
 #### Planung
