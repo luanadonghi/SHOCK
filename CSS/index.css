@@ -394,12 +394,15 @@ footer {
     width: 100%;
     text-align: center;
 }
+
 .logo {
     left: 1rem;
 }
+
 .left-content {
     padding-left: 0;
 }
+
 img.bildzwei {
     width: 100%;
     height: auto;
