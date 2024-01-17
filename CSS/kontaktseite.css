@@ -96,10 +96,18 @@ footer {
     margin-top: 0.347vw; 
 }
 
-.impressum p,
+/* .impressum p,
 .awayste p {
     margin-top: -0.556vw;
-}
+} */
+
+.impressum a,
+.awayste a  {
+    margin-top: -0.556vw;
+    text-decoration: none;
+    color: white;
+
+    }
 
 @media (min-width: 768px) {
 

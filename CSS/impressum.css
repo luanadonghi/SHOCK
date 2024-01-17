@@ -155,9 +155,13 @@ footer {
     margin-top: 0.347vw;
 }
 
-.impressum p,
-.awayste p {
+
+.impressum a,
+.awayste a {
     margin-top: -0.556vw;
+    text-decoration: none;
+    color: white;
+    font-size: 1.528vw;
 }
 
 @media (min-width: 768px) {
