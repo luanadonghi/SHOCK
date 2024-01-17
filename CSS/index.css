@@ -16,15 +16,9 @@ body{
     background-attachment: scroll;
 }
 
-/* .titel { 
-    grid-column: 1/ span 2;
-    grid-row: 1/ span 1;
-    display: flex;
-} */
-
 .nullkon {
-    height: 968px;
-    width: 1342px;
+    height: 67.222vw;
+    width: 93.194vw;
     margin-left: 0.625vw;;
 }
 
@@ -38,13 +32,13 @@ h1 {
     color: #FFF;
     text-align: left;
     font-family: Paralucent;
-    font-size: 150px;
+    font-size: 10.417vw;
     font-style: normal;
     font-weight: 700;
-    line-height: 150px;
+    line-height: 10.417vw;
     align-self: flex-start;
     margin-left: 0.625vw;
-    margin-top: 5rem;
+    margin-top: 2rem;
     color: white;
 }
 
@@ -52,48 +46,32 @@ h2 {
     color: #FFF;
     text-align: left;
     font-family: Paralucent;
-    font-size: 90px;
+    font-size: 6.250vw;
     font-style: normal;
     font-weight: 500;
-    line-height: 73.6px;
+    line-height: 5.111vw;
     margin-left: 0.625vw;
-    margin-top: 10px;
+    margin-top: 2rem;
 }
 
 h3 {
     color: #FFF;
     text-align: left;
     font-family: Paralucent;
-    font-size:70px;
+    font-size:4.861vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 70px;    
+    line-height: 4.861vw;    
     margin-left: 0.625vw;
-    margin-top: 50px;
+    margin-top: 3.472vw;
 }
-
-/* .schublade {
-    display: flex;
-    align-items: end    ;
-}
-
-.schubladeoffen {
-    width: 45.139vw;
-    height: 67.778vw;
-    align-self: flex-end;
-    margin-left: -22.222vw;
-    margin-top: 10.042vw;
-} */
-
-/* Text 1 */
 
 .datenhome {
     font-family: "paralucent";   
     color: white;
-    line-height: 48px;
+    line-height: 3.333vw;
     margin-left: 1vw;
     margin-right: 14vw;
-    /* margin-top: 90px; */
     border-right: 0.5vw solid #FFE76E;
     padding-right: 1rem;
     padding-top: 1rem;
@@ -103,12 +81,12 @@ h3 {
 .schublade {
     display: flex;
     flex-direction: column;
+    padding-left: 1rem;
 }
 
 .blockeins {
     display: flex;
     align-items: end;
-
 }
 
 .bildeins {
@@ -124,7 +102,7 @@ h3 {
 .texteins {
     color: #FFF;
     font-family: Paralucent;
-    font-size: 1rem;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -134,7 +112,7 @@ h3 {
 
 .bildzwei {
     height: 109.653vw;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .unverpackt {
@@ -146,21 +124,21 @@ h3 {
 .blockdrei {
     display: flex;
     align-items: end;
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 
 .bilddrei {
     padding-left: 1rem;
     border-left: #FFE76E solid 0.5vw;
     object-fit: cover;
-    max-width: 100%;
+    max-width: 92.7%;
     height: auto
 }
 
 .textdrei {
     color: #FFF;
     font-family: Paralucent;
-    font-size: 1rem;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -186,7 +164,7 @@ h3 {
 .textvier {
     color: #FFF;
     font-family: Paralucent;
-    font-size: 1rem;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -213,12 +191,12 @@ h3 {
 .burger {
     position: fixed;
     font-family: "paralucent";
-    font-size: 40px;
+    font-size: 2.3vw;
     font-weight: 500;
-    line-height: 45px;
+    line-height: 2.5vw;
     list-style: none;
     text-align: right;
-    right: 20px;
+    right: 1.389vw;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -235,7 +213,7 @@ footer {
     border-top: 0.5vw solid #FFE76E;
     background-color: transparent;
     color: #fff;
-    padding: 10px;
+    padding: 0.694vw;
     bottom: 0;
     left: 0;
     display: flex;
@@ -247,23 +225,25 @@ footer {
 
 .left-content p,
 .right-content p,
-.impressum p,
-.awayste p,
+.impressum a,
+.awayste a,
 .facebook p,
 .instagram p {
     margin: 0;
-    font-size: 22px; 
+    font-size: 1.528vw; 
 }
 
 .left-content p,
 .right-content p{
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0.347vw;
+    margin-top: 0.347vw;
 }
 
-.impressum p,
-.awayste p {
-    margin-top: -8px;
+.impressum a,
+.awayste a {
+    margin-top: -0.556vw;
+    text-decoration: none;
+    color: white;
 }
 
 @media (min-width: 768px) {
@@ -287,8 +267,8 @@ footer {
 
 .left-content p,
 .right-content p,
-.impressum p,
-.awayste p,
+.impressum a,
+.awayste a,
 .facebook p,
 .instagram p {
     margin: 0;
@@ -301,8 +281,8 @@ footer {
     margin-top: 5px;
 }
 
-.impressum p,
-.awayste p {
+.impressum a,
+.awayste a {
     margin-top: -8px;
 }
 
@@ -339,6 +319,10 @@ ul.burger {
     padding: 1rem;
     text-align: left;
 }
+.burger li a {   
+    font-size: 45px;
+    line-height: 45px;
+}
 
 h2 {
     font-size: 2.5rem;
@@ -349,13 +333,15 @@ h3 {
     font-size: 1rem;
     line-height: 1;
 }
-.titel {
-    padding: 1rem;
+
+.schublade {
+   padding-left: 0; 
 }
 
 .blockeins {
     flex-direction: column;
-    gap: .5rem;
+    gap: 1rem;
+    align-items: start;
 }
 
 .bildeins {
@@ -364,6 +350,7 @@ h3 {
     width: 100%;
     height: auto;
 }
+
 #menu.navIn + .burger {
     display: block;
 }
@@ -375,7 +362,7 @@ h3 {
 .blockdrei {
     flex-direction: column;
     gap: .5rem;
-    padding-top: 9rem;
+    padding-top: 6rem;
 }
 
 .bilddrei {
@@ -383,6 +370,10 @@ h3 {
     border: none;
     width: 100%;
     height: auto;
+}
+
+.kompost{
+    padding-left: 0;
 }
 
 .blockvier {
