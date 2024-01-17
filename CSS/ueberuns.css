@@ -316,12 +316,10 @@ margin-top: 10vw;
 
 .button {
     display: block;
-    padding: 0.694vw 2.083vw;
     background: white;
     color: #F2CC0C;
     border: none;
     border-radius: 1.042vw;
-    font-size: 1.389vw;
     width: 13.889vw;
     height: 4.167vw;
     margin-top: 5vw;
@@ -329,6 +327,8 @@ margin-top: 10vw;
     text-decoration: none;
     text-align: center;
     font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
 
 .button:hover {
