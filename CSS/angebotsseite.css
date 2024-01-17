@@ -286,6 +286,7 @@ input[type="search"]::placeholder {
 .filter {
     display: flex;
     margin-bottom: 1vw;
+    padding-bottom: 7vw;
     border-bottom: #FFE76E solid 0.5vw;
 
 }

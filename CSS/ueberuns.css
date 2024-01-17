@@ -128,13 +128,6 @@ h5 {
 
 /* bilder ------------------------------------------------------------------------------------------ */
 
-.vorschau {
-    display: flex;
-    justify-content: left;
-    width: 60vw;
-    height: 40vw;
-}
-
 .luana {
     display: flex;
     padding-bottom: 4vw;
@@ -241,6 +234,16 @@ margin-top: 10vw;
     margin-left: 30.6vw;
 }
 
+.vorschau {
+    display: flex;
+    justify-content: left;
+    width: 60vw;
+    height: 40vw;
+    margin-left: 11vw;
+    padding-top: 4vw;
+    padding-bottom: 1vw;
+}
+
 @media (max-width: 1000px) {
     
     .image-container-links {
@@ -337,17 +340,6 @@ margin-top: 10vw;
 
 .button:hover a {
     color: white; 
-}
-
-.filmbutton {
-    display: flex;
-    justify-content: left;
-    width: 60vw;
-    height: 40vw;
-    margin-top: 6vw;
-    margin-bottom: 2vw;
-    margin-left: 1.528vw;
-    align-self: center;
 }
 
 /* footer ------------------------------------------------------------------------------------------ */
